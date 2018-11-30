@@ -8,18 +8,36 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UINavigationController {
+    
+    var tabController: UITabBarController!
+    var homeViewController: UINavigationController!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        createTabBar()
     }
+    
+    func createTabBar() {
+        tabController = UITabBarController()
+        
+        homeViewController = HomeViewController()
+        homeViewController.title = "Home"
+//        homeViewController.view.backgroundColor = .black
+        
+        let eventsViewController = EventsViewController()
+        eventsViewController.title = "Events"
+        tabController.viewControllers = [homeViewController, eventsViewController]
+        self.view.addSubview(tabController.view)
+        
+        
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 

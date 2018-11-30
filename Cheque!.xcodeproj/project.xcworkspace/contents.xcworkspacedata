@@ -2,6 +2,34 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Cheque!.xcodeproj">
+      location = "group:/Users/nataliekalitsi/Google Drive/College/First Year/iOS/Hackathon/Cheque!/Cheque!/HomeViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Heebo-Black.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:Heebo-Bold.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:Heebo-ExtraBold.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:Heebo-Light.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:Heebo-Medium.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:Heebo-Regular.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:Heebo-Thin.ttf">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "s">
+   </Group>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB493C8F21ACAF8500A3DBD7 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */; };
+		AB493C9121ACB3B100A3DBD7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C9021ACB3B100A3DBD7 /* Event.swift */; };
+		AB493C9321ACBD9700A3DBD7 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */; };
+		AB493C9521AFD10D00A3DBD7 /* HairlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C9421AFD10D00A3DBD7 /* HairlineView.swift */; };
+		AB493CAC21AFDE6E00A3DBD7 /* Heebo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CAA21AFD99D00A3DBD7 /* Heebo-Thin.ttf */; };
+		AB493CAD21AFDE7100A3DBD7 /* Heebo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA521AFD99D00A3DBD7 /* Heebo-Regular.ttf */; };
+		AB493CAE21AFDE7300A3DBD7 /* Heebo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA421AFD99D00A3DBD7 /* Heebo-Medium.ttf */; };
+		AB493CAF21AFDE7500A3DBD7 /* Heebo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA721AFD99D00A3DBD7 /* Heebo-Light.ttf */; };
+		AB493CB021AFDE7700A3DBD7 /* Heebo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA821AFD99D00A3DBD7 /* Heebo-ExtraBold.ttf */; };
+		AB493CB121AFDE7900A3DBD7 /* Heebo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA921AFD99D00A3DBD7 /* Heebo-Bold.ttf */; };
+		AB493CB221AFDE7B00A3DBD7 /* Heebo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA621AFD99D00A3DBD7 /* Heebo-Black.ttf */; };
+		AB493CB421B0944800A3DBD7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493CB321B0944800A3DBD7 /* HomeViewController.swift */; };
+		AB493CB621B097A900A3DBD7 /* UpcomingEventsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493CB521B097A900A3DBD7 /* UpcomingEventsHeader.swift */; };
+		AB493CB821B097B100A3DBD7 /* UpcomingEventsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493CB721B097B100A3DBD7 /* UpcomingEventsCollectionViewCell.swift */; };
 		ABCA3A0E21AA479B0088CAC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA3A0D21AA479B0088CAC9 /* AppDelegate.swift */; };
 		ABCA3A1021AA479B0088CAC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA3A0F21AA479B0088CAC9 /* ViewController.swift */; };
 		ABCA3A1321AA479B0088CAC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCA3A1121AA479B0088CAC9 /* Main.storyboard */; };
@@ -15,6 +29,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		AB493C9021ACB3B100A3DBD7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		AB493C9421AFD10D00A3DBD7 /* HairlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairlineView.swift; sourceTree = "<group>"; };
+		AB493CA421AFD99D00A3DBD7 /* Heebo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Medium.ttf"; sourceTree = "<group>"; };
+		AB493CA521AFD99D00A3DBD7 /* Heebo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Regular.ttf"; sourceTree = "<group>"; };
+		AB493CA621AFD99D00A3DBD7 /* Heebo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Black.ttf"; sourceTree = "<group>"; };
+		AB493CA721AFD99D00A3DBD7 /* Heebo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Light.ttf"; sourceTree = "<group>"; };
+		AB493CA821AFD99D00A3DBD7 /* Heebo-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-ExtraBold.ttf"; sourceTree = "<group>"; };
+		AB493CA921AFD99D00A3DBD7 /* Heebo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Bold.ttf"; sourceTree = "<group>"; };
+		AB493CAA21AFD99D00A3DBD7 /* Heebo-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Thin.ttf"; sourceTree = "<group>"; };
+		AB493CB321B0944800A3DBD7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "/Users/nataliekalitsi/Google Drive/College/First Year/iOS/Hackathon/Cheque!/Cheque!/HomeViewController.swift"; sourceTree = "<absolute>"; };
+		AB493CB521B097A900A3DBD7 /* UpcomingEventsHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingEventsHeader.swift; sourceTree = "<group>"; };
+		AB493CB721B097B100A3DBD7 /* UpcomingEventsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingEventsCollectionViewCell.swift; sourceTree = "<group>"; };
 		ABCA3A0A21AA479B0088CAC9 /* Cheque!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cheque!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCA3A0D21AA479B0088CAC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABCA3A0F21AA479B0088CAC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +63,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB493CAB21AFD9C600A3DBD7 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AB493CA621AFD99D00A3DBD7 /* Heebo-Black.ttf */,
+				AB493CA921AFD99D00A3DBD7 /* Heebo-Bold.ttf */,
+				AB493CA821AFD99D00A3DBD7 /* Heebo-ExtraBold.ttf */,
+				AB493CA721AFD99D00A3DBD7 /* Heebo-Light.ttf */,
+				AB493CA421AFD99D00A3DBD7 /* Heebo-Medium.ttf */,
+				AB493CA521AFD99D00A3DBD7 /* Heebo-Regular.ttf */,
+				AB493CAA21AFD99D00A3DBD7 /* Heebo-Thin.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		ABCA3A0121AA479B0088CAC9 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +96,20 @@
 		ABCA3A0C21AA479B0088CAC9 /* Cheque! */ = {
 			isa = PBXGroup;
 			children = (
+				AB493CB321B0944800A3DBD7 /* HomeViewController.swift */,
+				AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */,
 				ABCA3A0D21AA479B0088CAC9 /* AppDelegate.swift */,
 				ABCA3A0F21AA479B0088CAC9 /* ViewController.swift */,
+				AB493C9421AFD10D00A3DBD7 /* HairlineView.swift */,
+				AB493CB721B097B100A3DBD7 /* UpcomingEventsCollectionViewCell.swift */,
+				AB493CB521B097A900A3DBD7 /* UpcomingEventsHeader.swift */,
+				AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */,
+				AB493C9021ACB3B100A3DBD7 /* Event.swift */,
 				ABCA3A1121AA479B0088CAC9 /* Main.storyboard */,
 				ABCA3A1421AA479C0088CAC9 /* Assets.xcassets */,
 				ABCA3A1621AA479C0088CAC9 /* LaunchScreen.storyboard */,
 				ABCA3A1921AA479C0088CAC9 /* Info.plist */,
+				AB493CAB21AFD9C600A3DBD7 /* fonts */,
 			);
 			path = "Cheque!";
 			sourceTree = "<group>";
@@ -122,7 +172,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB493CAD21AFDE7100A3DBD7 /* Heebo-Regular.ttf in Resources */,
 				ABCA3A1821AA479C0088CAC9 /* LaunchScreen.storyboard in Resources */,
+				AB493CAC21AFDE6E00A3DBD7 /* Heebo-Thin.ttf in Resources */,
+				AB493CAE21AFDE7300A3DBD7 /* Heebo-Medium.ttf in Resources */,
+				AB493CB021AFDE7700A3DBD7 /* Heebo-ExtraBold.ttf in Resources */,
+				AB493CAF21AFDE7500A3DBD7 /* Heebo-Light.ttf in Resources */,
+				AB493CB221AFDE7B00A3DBD7 /* Heebo-Black.ttf in Resources */,
+				AB493CB121AFDE7900A3DBD7 /* Heebo-Bold.ttf in Resources */,
 				ABCA3A1521AA479C0088CAC9 /* Assets.xcassets in Resources */,
 				ABCA3A1321AA479B0088CAC9 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +192,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB493C9121ACB3B100A3DBD7 /* Event.swift in Sources */,
+				AB493CB821B097B100A3DBD7 /* UpcomingEventsCollectionViewCell.swift in Sources */,
 				ABCA3A1021AA479B0088CAC9 /* ViewController.swift in Sources */,
+				AB493C9521AFD10D00A3DBD7 /* HairlineView.swift in Sources */,
 				ABCA3A0E21AA479B0088CAC9 /* AppDelegate.swift in Sources */,
+				AB493C9321ACBD9700A3DBD7 /* EventTableViewCell.swift in Sources */,
+				AB493CB621B097A900A3DBD7 /* UpcomingEventsHeader.swift in Sources */,
+				AB493CB421B0944800A3DBD7 /* HomeViewController.swift in Sources */,
+				AB493C8F21ACAF8500A3DBD7 /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
