@@ -17,6 +17,10 @@ class EventsViewController: UINavigationController, UITableViewDelegate, UITable
     
     var events: [Event]!
     var tableView: UITableView!
+<<<<<<< HEAD
+=======
+    var myEventsLabel: UILabel!
+>>>>>>> 6450a862f455deb5882a80d9c7086355eedfb765
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,15 +28,33 @@ class EventsViewController: UINavigationController, UITableViewDelegate, UITable
         
       
         //dummy event objects
+<<<<<<< HEAD
         let mathClass = Event(name: "Math 1910", eventLocation: "201 Malott", day: 8, month: 11, year: 2018)
         let climbingClub = Event(name: "Climibing Sesh", eventLocation: "Helen Newman", day: 10, month: 12, year: 2018)
         
         events = [mathClass, climbingClub]
+=======
+        let mathClass = Event(name: "Math 1910", eventLocation: "201 Malott", day: 8, month: 12, year: 2018)
+        let climbingClub = Event(name: "Climibing Sesh", eventLocation: "Helen Newman", day: 10, month: 12, year: 2018)
+        let appDev = Event(name: "Intro to iOS", eventLocation: "Gates G01", day: 14, month: 12, year: 2018)
+        let cisFormal = Event(name: "CIS Starry Night Formal", eventLocation: "Johnson Museum", day: 15, month: 12, year: 2018)
+        
+        
+        events = [mathClass, climbingClub, appDev, cisFormal]
+>>>>>>> 6450a862f455deb5882a80d9c7086355eedfb765
         
         //Change navBar color
         self.navigationBar.barTintColor = UIColor(red: 0.95, green: 0.26, blue: 0.0745, alpha: 0)
         self.navigationController?.navigationBar.prefersLargeTitles = true
         
+<<<<<<< HEAD
+=======
+//        //myEvents Label
+//        myEventsLabel = UILabel()
+//        myEventsLabel.text = "My Events"
+//        myEventsLabel.font = UIFont(name: "Heebo-Black", size: 36)
+//        myEventsLabel.textColor = UIColor(red: 0.95, green: 0.26, blue: 0.0745, alpha: 0)
+>>>>>>> 6450a862f455deb5882a80d9c7086355eedfb765
         
         //initialize tableview
         tableView = UITableView(frame: .zero)
@@ -56,6 +78,13 @@ class EventsViewController: UINavigationController, UITableViewDelegate, UITable
             tableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 100),
             tableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
             ])
+<<<<<<< HEAD
+=======
+        
+//        NSLayoutConstraint.activate([
+//            myEventsLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20)
+//            ])
+>>>>>>> 6450a862f455deb5882a80d9c7086355eedfb765
     
     }
     

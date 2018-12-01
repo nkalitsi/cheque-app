@@ -123,6 +123,11 @@ class HomeViewController: UINavigationController, UICollectionViewDataSource, UI
         let event = eventArray[indexPath.item]
         cell.configure(for: event)
         print("cell")
+<<<<<<< HEAD
+=======
+        cell.layer.cornerRadius = 9
+        cell.layer.masksToBounds = true
+>>>>>>> 6450a862f455deb5882a80d9c7086355eedfb765
         cell.setNeedsUpdateConstraints()
         return cell
     }

@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		70568A7821B0B27E004DDDF0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70568A7721B0B27D004DDDF0 /* HomeViewController.swift */; };
+=======
+>>>>>>> 6450a862f455deb5882a80d9c7086355eedfb765
 		AB493C8F21ACAF8500A3DBD7 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */; };
 		AB493C9121ACB3B100A3DBD7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C9021ACB3B100A3DBD7 /* Event.swift */; };
 		AB493C9321ACBD9700A3DBD7 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */; };
@@ -19,6 +22,11 @@
 		AB493CB021AFDE7700A3DBD7 /* Heebo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA821AFD99D00A3DBD7 /* Heebo-ExtraBold.ttf */; };
 		AB493CB121AFDE7900A3DBD7 /* Heebo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA921AFD99D00A3DBD7 /* Heebo-Bold.ttf */; };
 		AB493CB221AFDE7B00A3DBD7 /* Heebo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA621AFD99D00A3DBD7 /* Heebo-Black.ttf */; };
+<<<<<<< HEAD
+=======
+		AB493CB421B0944800A3DBD7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493CB321B0944800A3DBD7 /* HomeViewController.swift */; };
+		AB493CB621B097A900A3DBD7 /* UpcomingEventsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493CB521B097A900A3DBD7 /* UpcomingEventsHeader.swift */; };
+>>>>>>> 6450a862f455deb5882a80d9c7086355eedfb765
 		AB493CB821B097B100A3DBD7 /* UpcomingEventsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493CB721B097B100A3DBD7 /* UpcomingEventsCollectionViewCell.swift */; };
 		ABCA3A0E21AA479B0088CAC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA3A0D21AA479B0088CAC9 /* AppDelegate.swift */; };
 		ABCA3A1021AA479B0088CAC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA3A0F21AA479B0088CAC9 /* ViewController.swift */; };
@@ -28,7 +36,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		70568A7721B0B27D004DDDF0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../../../../../../../../../../var/folders/1p/bs_xwnp11658pwfld72l0gxm0000gp/T/com.apple.iChat/Messages/Transfers/HomeViewController.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> 6450a862f455deb5882a80d9c7086355eedfb765
 		AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		AB493C9021ACB3B100A3DBD7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
@@ -40,6 +51,11 @@
 		AB493CA821AFD99D00A3DBD7 /* Heebo-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-ExtraBold.ttf"; sourceTree = "<group>"; };
 		AB493CA921AFD99D00A3DBD7 /* Heebo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Bold.ttf"; sourceTree = "<group>"; };
 		AB493CAA21AFD99D00A3DBD7 /* Heebo-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Thin.ttf"; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		AB493CB321B0944800A3DBD7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "/Users/nataliekalitsi/Google Drive/College/First Year/iOS/Hackathon/Cheque!/Cheque!/HomeViewController.swift"; sourceTree = "<absolute>"; };
+		AB493CB521B097A900A3DBD7 /* UpcomingEventsHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingEventsHeader.swift; sourceTree = "<group>"; };
+>>>>>>> 6450a862f455deb5882a80d9c7086355eedfb765
 		AB493CB721B097B100A3DBD7 /* UpcomingEventsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingEventsCollectionViewCell.swift; sourceTree = "<group>"; };
 		ABCA3A0A21AA479B0088CAC9 /* Cheque!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cheque!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCA3A0D21AA479B0088CAC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,12 +110,18 @@
 		ABCA3A0C21AA479B0088CAC9 /* Cheque! */ = {
 			isa = PBXGroup;
 			children = (
+				AB493CB321B0944800A3DBD7 /* HomeViewController.swift */,
+				AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */,
 				ABCA3A0D21AA479B0088CAC9 /* AppDelegate.swift */,
 				70568A7721B0B27D004DDDF0 /* HomeViewController.swift */,
 				AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */,
 				ABCA3A0F21AA479B0088CAC9 /* ViewController.swift */,
 				AB493C9421AFD10D00A3DBD7 /* HairlineView.swift */,
 				AB493CB721B097B100A3DBD7 /* UpcomingEventsCollectionViewCell.swift */,
+<<<<<<< HEAD
+=======
+				AB493CB521B097A900A3DBD7 /* UpcomingEventsHeader.swift */,
+>>>>>>> 6450a862f455deb5882a80d9c7086355eedfb765
 				AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */,
 				AB493C9021ACB3B100A3DBD7 /* Event.swift */,
 				ABCA3A1121AA479B0088CAC9 /* Main.storyboard */,
@@ -194,8 +216,14 @@
 				ABCA3A1021AA479B0088CAC9 /* ViewController.swift in Sources */,
 				AB493C9521AFD10D00A3DBD7 /* HairlineView.swift in Sources */,
 				ABCA3A0E21AA479B0088CAC9 /* AppDelegate.swift in Sources */,
+<<<<<<< HEAD
 				70568A7821B0B27E004DDDF0 /* HomeViewController.swift in Sources */,
 				AB493C9321ACBD9700A3DBD7 /* EventTableViewCell.swift in Sources */,
+=======
+				AB493C9321ACBD9700A3DBD7 /* EventTableViewCell.swift in Sources */,
+				AB493CB621B097A900A3DBD7 /* UpcomingEventsHeader.swift in Sources */,
+				AB493CB421B0944800A3DBD7 /* HomeViewController.swift in Sources */,
+>>>>>>> 6450a862f455deb5882a80d9c7086355eedfb765
 				AB493C8F21ACAF8500A3DBD7 /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
