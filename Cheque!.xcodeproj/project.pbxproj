@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CA83217140884C5642E6C39 /* Pods_Cheque_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C93B8821CA1F4ED349D89CC /* Pods_Cheque_.framework */; };
 		70C2CDEF21B2295700897897 /* EventsInYourGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2CDEE21B2295600897897 /* EventsInYourGroupCell.swift */; };
 		70C2CDF521B22C9200897897 /* UpcomingEventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2CDF421B22C9200897897 /* UpcomingEventsCell.swift */; };
 		AB493C8F21ACAF8500A3DBD7 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */; };
@@ -20,6 +21,7 @@
 		AB493CB121AFDE7900A3DBD7 /* Heebo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA921AFD99D00A3DBD7 /* Heebo-Bold.ttf */; };
 		AB493CB221AFDE7B00A3DBD7 /* Heebo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA621AFD99D00A3DBD7 /* Heebo-Black.ttf */; };
 		AB493CC221B3265E00A3DBD7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493CC121B3265E00A3DBD7 /* HomeViewController.swift */; };
+		AB8F22FD21B47A98009B3F3F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F22FC21B47A98009B3F3F /* LoginViewController.swift */; };
 		ABCA3A0E21AA479B0088CAC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA3A0D21AA479B0088CAC9 /* AppDelegate.swift */; };
 		ABCA3A1021AA479B0088CAC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA3A0F21AA479B0088CAC9 /* ViewController.swift */; };
 		ABCA3A1321AA479B0088CAC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCA3A1121AA479B0088CAC9 /* Main.storyboard */; };
@@ -28,12 +30,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1ADDE3FF341821ED5E519C54 /* Pods-Cheque!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheque!.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cheque!/Pods-Cheque!.release.xcconfig"; sourceTree = "<group>"; };
 		70C2CDEA21B21D2C00897897 /* AvenirLTStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Medium.otf"; sourceTree = "<group>"; };
 		70C2CDEB21B21D3500897897 /* AvenirLTStd-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Black.otf"; sourceTree = "<group>"; };
 		70C2CDEC21B21D4B00897897 /* Poppins-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.otf"; sourceTree = "<group>"; };
 		70C2CDED21B21D4C00897897 /* Poppins-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.otf"; sourceTree = "<group>"; };
 		70C2CDEE21B2295600897897 /* EventsInYourGroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsInYourGroupCell.swift; sourceTree = "<group>"; };
 		70C2CDF421B22C9200897897 /* UpcomingEventsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventsCell.swift; sourceTree = "<group>"; };
+		7C93B8821CA1F4ED349D89CC /* Pods_Cheque_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cheque_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4810566C1A069037F49C4A /* Pods-Cheque!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheque!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cheque!/Pods-Cheque!.debug.xcconfig"; sourceTree = "<group>"; };
 		AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		AB493C9021ACB3B100A3DBD7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
@@ -45,6 +50,7 @@
 		AB493CA921AFD99D00A3DBD7 /* Heebo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Bold.ttf"; sourceTree = "<group>"; };
 		AB493CAA21AFD99D00A3DBD7 /* Heebo-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Thin.ttf"; sourceTree = "<group>"; };
 		AB493CC121B3265E00A3DBD7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AB8F22FC21B47A98009B3F3F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ABCA3A0A21AA479B0088CAC9 /* Cheque!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cheque!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCA3A0D21AA479B0088CAC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABCA3A0F21AA479B0088CAC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,12 +65,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA83217140884C5642E6C39 /* Pods_Cheque_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69A31C4B01D5CA43EAB8E682 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C4810566C1A069037F49C4A /* Pods-Cheque!.debug.xcconfig */,
+				1ADDE3FF341821ED5E519C54 /* Pods-Cheque!.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AB493CAB21AFD9C600A3DBD7 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +104,8 @@
 			children = (
 				ABCA3A0C21AA479B0088CAC9 /* Cheque! */,
 				ABCA3A0B21AA479B0088CAC9 /* Products */,
+				69A31C4B01D5CA43EAB8E682 /* Pods */,
+				E48B4CF7F349549020840108 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				ABCA3A0D21AA479B0088CAC9 /* AppDelegate.swift */,
+				AB8F22FC21B47A98009B3F3F /* LoginViewController.swift */,
 				ABCA3A0F21AA479B0088CAC9 /* ViewController.swift */,
 				AB493CC121B3265E00A3DBD7 /* HomeViewController.swift */,
 				AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */,
@@ -119,6 +138,14 @@
 			path = "Cheque!";
 			sourceTree = "<group>";
 		};
+		E48B4CF7F349549020840108 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C93B8821CA1F4ED349D89CC /* Pods_Cheque_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABCA3A1C21AA479C0088CAC9 /* Build configuration list for PBXNativeTarget "Cheque!" */;
 			buildPhases = (
+				0A4215D879521CFC6516CCE2 /* [CP] Check Pods Manifest.lock */,
 				ABCA3A0621AA479B0088CAC9 /* Sources */,
 				ABCA3A0721AA479B0088CAC9 /* Frameworks */,
 				ABCA3A0821AA479B0088CAC9 /* Resources */,
+				925D4B9596CF979C727E8BE1 /* [CP] Embed Pods Frameworks */,
+				B54275ADB32CB80163F3597D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,11 +222,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A4215D879521CFC6516CCE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cheque!-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		925D4B9596CF979C727E8BE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cheque!/Pods-Cheque!-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cheque!/Pods-Cheque!-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B54275ADB32CB80163F3597D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cheque!/Pods-Cheque!-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cheque!/Pods-Cheque!-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABCA3A0621AA479B0088CAC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB8F22FD21B47A98009B3F3F /* LoginViewController.swift in Sources */,
 				70C2CDF521B22C9200897897 /* UpcomingEventsCell.swift in Sources */,
 				70C2CDEF21B2295700897897 /* EventsInYourGroupCell.swift in Sources */,
 				AB493C9121ACB3B100A3DBD7 /* Event.swift in Sources */,
@@ -346,6 +448,7 @@
 		};
 		ABCA3A1D21AA479C0088CAC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4810566C1A069037F49C4A /* Pods-Cheque!.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -363,6 +466,7 @@
 		};
 		ABCA3A1E21AA479C0088CAC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ADDE3FF341821ED5E519C54 /* Pods-Cheque!.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

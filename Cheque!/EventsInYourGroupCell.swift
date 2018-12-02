@@ -97,7 +97,7 @@ class EventsInYourGroupCell: UICollectionViewCell {
         
         
         NSLayoutConstraint.activate([
-            nameLabel.topAnchor.constraint(equalTo: contentView.topAnchor),
+            nameLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 40),
             nameLabel.leadingAnchor.constraint(equalTo: dateLabel.trailingAnchor),
             nameLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
             ])

@@ -10,7 +10,7 @@ import UIKit
 
 class EventsViewController: UINavigationController, UITableViewDelegate, UITableViewDataSource {
     let reuseIdentifier = "eventCellReuse"
-    let cellHeight: CGFloat = 125
+    let cellHeight: CGFloat = 120
     let tableViewPadding: CGFloat = 10
     let eventCellWhitespacePadding: CGFloat = 12
     
@@ -23,7 +23,7 @@ class EventsViewController: UINavigationController, UITableViewDelegate, UITable
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        view.backgroundColor = UIColor(red: 244/255, green: 244/255, blue: 244/255, alpha: 1)
 
         //dummy event objects
 
@@ -45,6 +45,7 @@ class EventsViewController: UINavigationController, UITableViewDelegate, UITable
         //myEvents Label
         myEventsLabel = UILabel()
         myEventsLabel.text = "MY EVENTS"
+        myEventsLabel.translatesAutoresizingMaskIntoConstraints = false
         myEventsLabel.font = UIFont.systemFont(ofSize: 26)
         myEventsLabel.textColor = UIColor.black
         myEventsLabel.textAlignment = .center
@@ -69,8 +70,9 @@ class EventsViewController: UINavigationController, UITableViewDelegate, UITable
         // Setup the constraints for our views
         
         NSLayoutConstraint.activate([
-            myEventsLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 200),
+            myEventsLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 40),
             myEventsLabel.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
+            myEventsLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
             myEventsLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             myEventsLabel.heightAnchor.constraint(equalToConstant: 50)
             ])

@@ -35,8 +35,7 @@ class ViewController: UINavigationController {
         eventsViewController.title = "Events"
         tabController.viewControllers = [homeViewController, eventsViewController]
         self.view.addSubview(tabController.view)
-        
-        
+ 
     }
     
 

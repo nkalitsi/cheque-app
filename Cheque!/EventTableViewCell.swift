@@ -70,10 +70,10 @@ class EventTableViewCell: UITableViewCell {
         //trying to make background gradient
         let layer = CAGradientLayer()
         layer.colors = [myRed.cgColor, myPink.cgColor]
-        layer.frame = CGRect(x: 0, y: 0, width: 125, height: 125)
+        layer.frame = CGRect(x: 0, y: 0, width: 125, height: 120)
         contentView.layer.addSublayer(layer)
         
-        self.backgroundColor = UIColor(red: 0.627, green: 0.811, blue: 0.827, alpha: 1.0)
+        self.backgroundColor = .white
         
         
         monthAbbrevLabel = UILabel()
