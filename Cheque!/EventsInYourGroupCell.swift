@@ -22,10 +22,20 @@ class EventsInYourGroupCell: UICollectionViewCell {
     var groupLabel: InsetLabel!
     //var tagsLabel: InsetLabel!
     
+    //trying to make background gradient
+    let myRed = UIColor(red: 255/255, green: 14/255, blue: 17/255, alpha: 1)
+    let myPink = UIColor(red: 255/255, green: 118/255, blue: 127/255, alpha: 1)
+    
     override init(frame: CGRect) {
         
         super.init(frame: frame)
         contentView.backgroundColor = UIColor.white
+        
+        //background gradient
+        let layer = CAGradientLayer()
+        layer.colors = [myRed.cgColor, myPink.cgColor]
+        layer.frame = CGRect(x: 0, y: 0, width: 135, height: 125)
+        contentView.layer.addSublayer(layer)
         
         nameLabel = InsetLabel()
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -46,7 +56,7 @@ class EventsInYourGroupCell: UICollectionViewCell {
         timeLabel.font = UIFont.systemFont(ofSize: 30 , weight: .regular)
         timeLabel.textAlignment = .center
         timeLabel.textColor = UIColor.white
-        timeLabel.backgroundColor = UIColor.init(displayP3Red: 255/255, green: 118/255, blue: 127/255, alpha: 1)
+        //timeLabel.backgroundColor = UIColor.init(displayP3Red: 255/255, green: 118/255, blue: 127/255, alpha: 1)
         timeLabel.textColor = UIColor.black
         contentView.addSubview(timeLabel)
 
@@ -57,7 +67,7 @@ class EventsInYourGroupCell: UICollectionViewCell {
         dateLabel.numberOfLines = 0
         dateLabel.lineBreakMode = .byWordWrapping
         dateLabel.textColor = UIColor.white
-        dateLabel.backgroundColor = UIColor.init(displayP3Red: 255/255, green: 118/255, blue: 127/255, alpha: 1)
+        //dateLabel.backgroundColor = UIColor.init(displayP3Red: 255/255, green: 118/255, blue: 127/255, alpha: 1)
         dateLabel.textColor = UIColor.black
         contentView.addSubview(dateLabel)
         
