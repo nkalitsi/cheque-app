@@ -22,18 +22,28 @@ class EventsInYourGroupCell: UICollectionViewCell {
     var groupLabel: InsetLabel!
     //var tagsLabel: InsetLabel!
     
+
+    //trying to make background gradient
+    let myRed = UIColor(red: 255/255, green: 14/255, blue: 17/255, alpha: 1)
+    let myPink = UIColor(red: 255/255, green: 118/255, blue: 127/255, alpha: 1)
+    
     override init(frame: CGRect) {
         
         super.init(frame: frame)
         contentView.backgroundColor = UIColor.white
         
+
+        //background gradient
+        let layer = CAGradientLayer()
+        layer.colors = [myRed.cgColor, myPink.cgColor]
+        layer.frame = CGRect(x: 0, y: 0, width: 135, height: 125)
+        contentView.layer.addSublayer(layer)
+        
         nameLabel = InsetLabel()
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
-        nameLabel.font = UIFont.systemFont(ofSize: 20, weight: .bold)
+        nameLabel.font = UIFont.systemFont(ofSize: 24, weight: .bold)
         nameLabel.textColor = UIColor.black
         nameLabel.backgroundColor = UIColor.white
-        nameLabel.numberOfLines = 0
-        nameLabel.lineBreakMode = .byWordWrapping
         contentView.addSubview(nameLabel)
         
         locationLabel = InsetLabel()
@@ -43,21 +53,23 @@ class EventsInYourGroupCell: UICollectionViewCell {
         locationLabel.backgroundColor = UIColor.white
         contentView.addSubview(locationLabel)
         
-        timeLabel = InsetLabel()
+        timeLabel = UILabel()
         timeLabel.translatesAutoresizingMaskIntoConstraints = false
-        timeLabel.font = UIFont.systemFont(ofSize: 18, weight: .regular)
+        timeLabel.font = UIFont.systemFont(ofSize: 30 , weight: .regular)
         timeLabel.textAlignment = .center
-        timeLabel.backgroundColor = UIColor.init(displayP3Red: 255/255, green: 14/255, blue: 17/255, alpha: 1)
+        timeLabel.textColor = UIColor.white
+        //timeLabel.backgroundColor = UIColor.init(displayP3Red: 255/255, green: 118/255, blue: 127/255, alpha: 1)
         timeLabel.textColor = UIColor.black
         contentView.addSubview(timeLabel)
 
-        dateLabel = InsetLabel()
+        dateLabel = UILabel()
         dateLabel.translatesAutoresizingMaskIntoConstraints = false
-        dateLabel.font = UIFont.systemFont(ofSize: 18, weight: .regular)
+        dateLabel.font = UIFont.systemFont(ofSize: 20, weight: .regular)
         dateLabel.textAlignment = .center
         dateLabel.numberOfLines = 0
         dateLabel.lineBreakMode = .byWordWrapping
-        dateLabel.backgroundColor = UIColor.init(displayP3Red: 255/255, green: 14/255, blue: 17/255, alpha: 1)
+        dateLabel.textColor = UIColor.white
+        //dateLabel.backgroundColor = UIColor.init(displayP3Red: 255/255, green: 118/255, blue: 127/255, alpha: 1)
         dateLabel.textColor = UIColor.black
         contentView.addSubview(dateLabel)
         
@@ -84,7 +96,8 @@ class EventsInYourGroupCell: UICollectionViewCell {
         NSLayoutConstraint.activate([
             dateLabel.topAnchor.constraint(equalTo: contentView.topAnchor),
             dateLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
-            dateLabel.widthAnchor.constraint(equalToConstant: 125),
+
+            dateLabel.widthAnchor.constraint(equalToConstant: 135),
             dateLabel.heightAnchor.constraint(equalToConstant: 70)
             ])
         
@@ -97,8 +110,10 @@ class EventsInYourGroupCell: UICollectionViewCell {
         
         
         NSLayoutConstraint.activate([
-            nameLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 40),
+
+            nameLabel.topAnchor.constraint(equalTo: contentView.topAnchor),
             nameLabel.leadingAnchor.constraint(equalTo: dateLabel.trailingAnchor),
+            nameLabel.heightAnchor.constraint(equalToConstant: 50),
             nameLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
             ])
         
@@ -106,6 +121,8 @@ class EventsInYourGroupCell: UICollectionViewCell {
             locationLabel.topAnchor.constraint(equalTo: nameLabel.bottomAnchor),
             locationLabel.leadingAnchor.constraint(equalTo: nameLabel.leadingAnchor),
             locationLabel.trailingAnchor.constraint(equalTo: nameLabel.trailingAnchor),
+
+            locationLabel.heightAnchor.constraint(equalToConstant: 25)
             ])
         
         NSLayoutConstraint.activate([

@@ -46,6 +46,7 @@ class EventsViewController: UINavigationController, UITableViewDelegate, UITable
         myEventsLabel = UILabel()
         myEventsLabel.text = "MY EVENTS"
         myEventsLabel.translatesAutoresizingMaskIntoConstraints = false
+
         myEventsLabel.font = UIFont.systemFont(ofSize: 26)
         myEventsLabel.textColor = UIColor.black
         myEventsLabel.textAlignment = .center
@@ -70,6 +71,7 @@ class EventsViewController: UINavigationController, UITableViewDelegate, UITable
         // Setup the constraints for our views
         
         NSLayoutConstraint.activate([
+
             myEventsLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 40),
             myEventsLabel.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
             myEventsLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),

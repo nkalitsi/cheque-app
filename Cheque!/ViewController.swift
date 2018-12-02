@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ViewController: UINavigationController {
+class ViewController: UIViewController {
+    
     
     
     var tabController: UITabBarController!
-    var homeViewController: UINavigationController!
+    var homeViewController: UIViewController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
