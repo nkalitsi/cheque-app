@@ -8,10 +8,11 @@
 
 import UIKit
 
-class ViewController: UINavigationController {
+class ViewController: UIViewController {
+    
     
     var tabController: UITabBarController!
-    var homeViewController: UINavigationController!
+    var homeViewController: UIViewController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,10 +20,15 @@ class ViewController: UINavigationController {
     }
     
     func createTabBar() {
-        tabController = UITabBarController()
         
+        let appearance = UITabBarItem.appearance()
+        let attributes = [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 20)]
+        appearance.setTitleTextAttributes(attributes, for: [])
+    
+        tabController = UITabBarController()
         homeViewController = HomeViewController()
         homeViewController.title = "Home"
+        
 //        homeViewController.view.backgroundColor = .black
         
         let eventsViewController = EventsViewController()
