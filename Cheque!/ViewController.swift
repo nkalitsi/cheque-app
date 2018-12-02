@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UINavigationController {
     
+    
     var tabController: UITabBarController!
     var homeViewController: UINavigationController!
     
@@ -19,10 +20,15 @@ class ViewController: UINavigationController {
     }
     
     func createTabBar() {
-        tabController = UITabBarController()
         
+        let appearance = UITabBarItem.appearance()
+        let attributes = [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 20)]
+        appearance.setTitleTextAttributes(attributes, for: [])
+    
+        tabController = UITabBarController()
         homeViewController = HomeViewController()
         homeViewController.title = "Home"
+        
 //        homeViewController.view.backgroundColor = .black
         
         let eventsViewController = EventsViewController()

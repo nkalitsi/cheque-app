@@ -31,12 +31,12 @@ class Event {
         tags = ["FIX TAGS"]
     }
     
-    init(name: String, time: String, day: Int, month: Int, year: Int, eventLocation: String, group: String, tags: [String]) {
+    init(name: String, time: String,eventLocation: String, group: String, tags: [String]) {
         self.eventName = name
         self.time = time
-        self.day = day
-        self.month = month
-        self.year = year
+        day = 1
+        month = 1
+        year = 2018
         self.eventLocation = eventLocation
         self.groupName = group
         self.tags = tags
