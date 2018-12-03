@@ -45,6 +45,6 @@ class Event {
         self.groupName = group
         self.description = description
     }
-
+    
 }
 

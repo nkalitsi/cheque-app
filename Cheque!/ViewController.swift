@@ -38,7 +38,10 @@ class ViewController: UIViewController {
         let createModalViewController = CreateViewController()
         createModalViewController.title = "Create"
         
-        tabController.viewControllers = [homeViewController, eventsViewController, createModalViewController]
+        let groupViewController = GroupsViewController()
+        createModalViewController.title = "Groups"
+        
+        tabController.viewControllers = [homeViewController, eventsViewController, createModalViewController, groupViewController]
         self.view.addSubview(tabController.view)
  
     }
