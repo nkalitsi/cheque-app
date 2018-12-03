@@ -2,6 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.1234567890-abcdefg</string>
+			</array>
+			<key>CFBundleURLName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string></string>
+		</dict>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -43,13 +58,10 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Heebo-Black.ttf</string>
-		<string>Heebo-Bold.ttf</string>
-		<string>Heebo-ExtraBlack.ttf</string>
-		<string>Heebo-Light.ttf</string>
-		<string>Heebo-Medium.ttf</string>
-		<string>Heebo-Regular.ttf</string>
-		<string>Heebo-Thin.ttf</string>
+		<string>AvenirLTStd-Medium.otf</string>
+		<string>AvenirLTStd-Black.otf</string>
+		<string>Poppins-Regular.otf</string>
+		<string>Poppins-SemiBold.otf</string>
 	</array>
 </dict>
 </plist>

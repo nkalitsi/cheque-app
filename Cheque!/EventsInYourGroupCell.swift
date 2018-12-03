@@ -21,6 +21,7 @@ class EventsInYourGroupCell: UICollectionViewCell {
     var dateLabel: UILabel!
     var groupLabel: InsetLabel!
     
+
     //trying to make background gradient
     let myRed = UIColor(red: 255/255, green: 14/255, blue: 17/255, alpha: 1)
     let myPink = UIColor(red: 255/255, green: 118/255, blue: 127/255, alpha: 1)
@@ -30,6 +31,7 @@ class EventsInYourGroupCell: UICollectionViewCell {
         super.init(frame: frame)
         contentView.backgroundColor = UIColor.white
         
+
         //background gradient
         let layer = CAGradientLayer()
         layer.colors = [myRed.cgColor, myPink.cgColor]
@@ -85,6 +87,7 @@ class EventsInYourGroupCell: UICollectionViewCell {
         NSLayoutConstraint.activate([
             dateLabel.topAnchor.constraint(equalTo: contentView.topAnchor),
             dateLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+
             dateLabel.widthAnchor.constraint(equalToConstant: 135),
             dateLabel.heightAnchor.constraint(equalToConstant: 70)
             ])
@@ -98,6 +101,7 @@ class EventsInYourGroupCell: UICollectionViewCell {
         
         
         NSLayoutConstraint.activate([
+
             nameLabel.topAnchor.constraint(equalTo: contentView.topAnchor),
             nameLabel.leadingAnchor.constraint(equalTo: dateLabel.trailingAnchor),
             nameLabel.heightAnchor.constraint(equalToConstant: 50),
@@ -108,6 +112,7 @@ class EventsInYourGroupCell: UICollectionViewCell {
             locationLabel.topAnchor.constraint(equalTo: nameLabel.bottomAnchor),
             locationLabel.leadingAnchor.constraint(equalTo: nameLabel.leadingAnchor),
             locationLabel.trailingAnchor.constraint(equalTo: nameLabel.trailingAnchor),
+
             locationLabel.heightAnchor.constraint(equalToConstant: 25)
             ])
         

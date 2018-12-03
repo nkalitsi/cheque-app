@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    
     var tabController: UITabBarController!
     var homeViewController: UIViewController!
     
@@ -39,8 +40,7 @@ class ViewController: UIViewController {
         
         tabController.viewControllers = [homeViewController, eventsViewController, createModalViewController]
         self.view.addSubview(tabController.view)
-        
-        
+ 
     }
     
     override func didReceiveMemoryWarning() {

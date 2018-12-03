@@ -20,6 +20,8 @@ class EventTableViewCell: UITableViewCell {
     let infoWidth: CGFloat = 100
     let fontSize: CGFloat = 12
     var event: Event!
+    let myRed = UIColor(red: 255/255, green: 14/255, blue: 17/255, alpha: 1)
+    let myPink = UIColor(red: 255/255, green: 118/255, blue: 127/255, alpha: 1)
     
     var monthAbbrevLabel: UILabel!
     var monthAbbrev: String!
@@ -35,6 +37,8 @@ class EventTableViewCell: UITableViewCell {
     
     var locationLabel: UILabel!
     var eventLocation: String!
+    
+    
     
     //fonts
     let heeboBlack = UIFont(name: "Heebo-Black", size: UIFont.systemFontSize)
@@ -63,13 +67,13 @@ class EventTableViewCell: UITableViewCell {
         //makes background clear
         contentView.backgroundColor = .clear
 
-//        //trying to make background gradient
-//        let layer = CAGradientLayer()
-//        layer.colors = [UIColor.yellow.cgColor, UIColor.cyan.cgColor]
-//        layer.frame = contentView.bounds
-//        contentView.layer.addSublayer(layer)
+        //trying to make background gradient
+        let layer = CAGradientLayer()
+        layer.colors = [myRed.cgColor, myPink.cgColor]
+        layer.frame = CGRect(x: 0, y: 0, width: 125, height: 120)
+        contentView.layer.addSublayer(layer)
         
-        self.backgroundColor = UIColor(red: 0.627, green: 0.811, blue: 0.827, alpha: 1.0)
+        self.backgroundColor = .white
         
         
         monthAbbrevLabel = UILabel()
@@ -99,6 +103,7 @@ class EventTableViewCell: UITableViewCell {
         
         setupConstraints()
     }
+    
     
     
     //Setup constraints for labels within event table view cell

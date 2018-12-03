@@ -7,48 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		70568A7821B0B27E004DDDF0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70568A7721B0B27D004DDDF0 /* HomeViewController.swift */; };
+		2CA83217140884C5642E6C39 /* Pods_Cheque_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C93B8821CA1F4ED349D89CC /* Pods_Cheque_.framework */; };
 		70C2CDEF21B2295700897897 /* EventsInYourGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2CDEE21B2295600897897 /* EventsInYourGroupCell.swift */; };
 		70C2CDF521B22C9200897897 /* UpcomingEventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2CDF421B22C9200897897 /* UpcomingEventsCell.swift */; };
 		70C2CDF921B4734000897897 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2CDF821B4734000897897 /* CreateViewController.swift */; };
 		AB493C8F21ACAF8500A3DBD7 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */; };
 		AB493C9121ACB3B100A3DBD7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C9021ACB3B100A3DBD7 /* Event.swift */; };
-		AB493C9321ACBD9700A3DBD7 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */; };
-		AB493C9521AFD10D00A3DBD7 /* HairlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C9421AFD10D00A3DBD7 /* HairlineView.swift */; };
-		AB493CAC21AFDE6E00A3DBD7 /* Heebo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CAA21AFD99D00A3DBD7 /* Heebo-Thin.ttf */; };
-		AB493CAD21AFDE7100A3DBD7 /* Heebo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA521AFD99D00A3DBD7 /* Heebo-Regular.ttf */; };
-		AB493CAE21AFDE7300A3DBD7 /* Heebo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA421AFD99D00A3DBD7 /* Heebo-Medium.ttf */; };
-		AB493CAF21AFDE7500A3DBD7 /* Heebo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA721AFD99D00A3DBD7 /* Heebo-Light.ttf */; };
-		AB493CB021AFDE7700A3DBD7 /* Heebo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA821AFD99D00A3DBD7 /* Heebo-ExtraBold.ttf */; };
-		AB493CB121AFDE7900A3DBD7 /* Heebo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA921AFD99D00A3DBD7 /* Heebo-Bold.ttf */; };
-		AB493CB221AFDE7B00A3DBD7 /* Heebo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA621AFD99D00A3DBD7 /* Heebo-Black.ttf */; };
+		AB8F22FD21B47A98009B3F3F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F22FC21B47A98009B3F3F /* LoginViewController.swift */; };
 		ABCA3A0E21AA479B0088CAC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA3A0D21AA479B0088CAC9 /* AppDelegate.swift */; };
 		ABCA3A1021AA479B0088CAC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA3A0F21AA479B0088CAC9 /* ViewController.swift */; };
 		ABCA3A1321AA479B0088CAC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCA3A1121AA479B0088CAC9 /* Main.storyboard */; };
 		ABCA3A1521AA479C0088CAC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCA3A1421AA479C0088CAC9 /* Assets.xcassets */; };
 		ABCA3A1821AA479C0088CAC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCA3A1621AA479C0088CAC9 /* LaunchScreen.storyboard */; };
+		ABD984FE21B49E4C00660460 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD984FD21B49E4C00660460 /* HomeViewController.swift */; };
+		ABD9850021B49E5E00660460 /* UpcomingEventsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD984FF21B49E5E00660460 /* UpcomingEventsHeader.swift */; };
+		ABD9850121B4A1AE00660460 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */; };
+		ABD9850221B4A95500660460 /* Poppins-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70C2CDED21B21D4C00897897 /* Poppins-Regular.otf */; };
+		ABD9850321B4A95800660460 /* AvenirLTStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70C2CDEA21B21D2C00897897 /* AvenirLTStd-Medium.otf */; };
+		ABD9850421B4A95A00660460 /* AvenirLTStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70C2CDEB21B21D3500897897 /* AvenirLTStd-Black.otf */; };
+		ABD9850521B4A95D00660460 /* Poppins-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70C2CDEC21B21D4B00897897 /* Poppins-SemiBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		70568A7721B0B27D004DDDF0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../../../../../../../../../../var/folders/1p/bs_xwnp11658pwfld72l0gxm0000gp/T/com.apple.iChat/Messages/Transfers/HomeViewController.swift; sourceTree = "<group>"; };
+		1ADDE3FF341821ED5E519C54 /* Pods-Cheque!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheque!.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cheque!/Pods-Cheque!.release.xcconfig"; sourceTree = "<group>"; };
 		70C2CDEA21B21D2C00897897 /* AvenirLTStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Medium.otf"; sourceTree = "<group>"; };
 		70C2CDEB21B21D3500897897 /* AvenirLTStd-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Black.otf"; sourceTree = "<group>"; };
 		70C2CDEC21B21D4B00897897 /* Poppins-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.otf"; sourceTree = "<group>"; };
 		70C2CDED21B21D4C00897897 /* Poppins-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.otf"; sourceTree = "<group>"; };
 		70C2CDEE21B2295600897897 /* EventsInYourGroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsInYourGroupCell.swift; sourceTree = "<group>"; };
 		70C2CDF421B22C9200897897 /* UpcomingEventsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventsCell.swift; sourceTree = "<group>"; };
+
 		70C2CDF821B4734000897897 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+
+		7C93B8821CA1F4ED349D89CC /* Pods_Cheque_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cheque_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4810566C1A069037F49C4A /* Pods-Cheque!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheque!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cheque!/Pods-Cheque!.debug.xcconfig"; sourceTree = "<group>"; };
+
 		AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		AB493C9021ACB3B100A3DBD7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
-		AB493C9421AFD10D00A3DBD7 /* HairlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairlineView.swift; sourceTree = "<group>"; };
-		AB493CA421AFD99D00A3DBD7 /* Heebo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Medium.ttf"; sourceTree = "<group>"; };
-		AB493CA521AFD99D00A3DBD7 /* Heebo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Regular.ttf"; sourceTree = "<group>"; };
-		AB493CA621AFD99D00A3DBD7 /* Heebo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Black.ttf"; sourceTree = "<group>"; };
-		AB493CA721AFD99D00A3DBD7 /* Heebo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Light.ttf"; sourceTree = "<group>"; };
-		AB493CA821AFD99D00A3DBD7 /* Heebo-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-ExtraBold.ttf"; sourceTree = "<group>"; };
-		AB493CA921AFD99D00A3DBD7 /* Heebo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Bold.ttf"; sourceTree = "<group>"; };
-		AB493CAA21AFD99D00A3DBD7 /* Heebo-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Thin.ttf"; sourceTree = "<group>"; };
+		AB8F22FC21B47A98009B3F3F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ABCA3A0A21AA479B0088CAC9 /* Cheque!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cheque!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCA3A0D21AA479B0088CAC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABCA3A0F21AA479B0088CAC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +53,8 @@
 		ABCA3A1421AA479C0088CAC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABCA3A1721AA479C0088CAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABCA3A1921AA479C0088CAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD984FD21B49E4C00660460 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ABD984FF21B49E5E00660460 /* UpcomingEventsHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingEventsHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,26 +62,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA83217140884C5642E6C39 /* Pods_Cheque_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69A31C4B01D5CA43EAB8E682 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C4810566C1A069037F49C4A /* Pods-Cheque!.debug.xcconfig */,
+				1ADDE3FF341821ED5E519C54 /* Pods-Cheque!.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AB493CAB21AFD9C600A3DBD7 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				AB493CA621AFD99D00A3DBD7 /* Heebo-Black.ttf */,
 				70C2CDEA21B21D2C00897897 /* AvenirLTStd-Medium.otf */,
-				AB493CA921AFD99D00A3DBD7 /* Heebo-Bold.ttf */,
 				70C2CDEB21B21D3500897897 /* AvenirLTStd-Black.otf */,
 				70C2CDED21B21D4C00897897 /* Poppins-Regular.otf */,
 				70C2CDEC21B21D4B00897897 /* Poppins-SemiBold.otf */,
-				AB493CA821AFD99D00A3DBD7 /* Heebo-ExtraBold.ttf */,
-				AB493CA721AFD99D00A3DBD7 /* Heebo-Light.ttf */,
-				AB493CA421AFD99D00A3DBD7 /* Heebo-Medium.ttf */,
-				AB493CA521AFD99D00A3DBD7 /* Heebo-Regular.ttf */,
-				AB493CAA21AFD99D00A3DBD7 /* Heebo-Thin.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -92,6 +94,8 @@
 			children = (
 				ABCA3A0C21AA479B0088CAC9 /* Cheque! */,
 				ABCA3A0B21AA479B0088CAC9 /* Products */,
+				69A31C4B01D5CA43EAB8E682 /* Pods */,
+				E48B4CF7F349549020840108 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,15 +110,19 @@
 		ABCA3A0C21AA479B0088CAC9 /* Cheque! */ = {
 			isa = PBXGroup;
 			children = (
+				ABD984FF21B49E5E00660460 /* UpcomingEventsHeader.swift */,
+				ABD984FD21B49E4C00660460 /* HomeViewController.swift */,
 				ABCA3A0D21AA479B0088CAC9 /* AppDelegate.swift */,
+				AB8F22FC21B47A98009B3F3F /* LoginViewController.swift */,
 				ABCA3A0F21AA479B0088CAC9 /* ViewController.swift */,
-				70568A7721B0B27D004DDDF0 /* HomeViewController.swift */,
+				AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */,
 				AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */,
+
 				70C2CDF821B4734000897897 /* CreateViewController.swift */,
 				AB493C9421AFD10D00A3DBD7 /* HairlineView.swift */,
+
 				70C2CDEE21B2295600897897 /* EventsInYourGroupCell.swift */,
 				70C2CDF421B22C9200897897 /* UpcomingEventsCell.swift */,
-				AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */,
 				AB493C9021ACB3B100A3DBD7 /* Event.swift */,
 				ABCA3A1121AA479B0088CAC9 /* Main.storyboard */,
 				ABCA3A1421AA479C0088CAC9 /* Assets.xcassets */,
@@ -125,6 +133,14 @@
 			path = "Cheque!";
 			sourceTree = "<group>";
 		};
+		E48B4CF7F349549020840108 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C93B8821CA1F4ED349D89CC /* Pods_Cheque_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABCA3A1C21AA479C0088CAC9 /* Build configuration list for PBXNativeTarget "Cheque!" */;
 			buildPhases = (
+				0A4215D879521CFC6516CCE2 /* [CP] Check Pods Manifest.lock */,
 				ABCA3A0621AA479B0088CAC9 /* Sources */,
 				ABCA3A0721AA479B0088CAC9 /* Frameworks */,
 				ABCA3A0821AA479B0088CAC9 /* Resources */,
+				925D4B9596CF979C727E8BE1 /* [CP] Embed Pods Frameworks */,
+				B54275ADB32CB80163F3597D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,36 +202,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB493CAD21AFDE7100A3DBD7 /* Heebo-Regular.ttf in Resources */,
 				ABCA3A1821AA479C0088CAC9 /* LaunchScreen.storyboard in Resources */,
-				AB493CAC21AFDE6E00A3DBD7 /* Heebo-Thin.ttf in Resources */,
-				AB493CAE21AFDE7300A3DBD7 /* Heebo-Medium.ttf in Resources */,
-				AB493CB021AFDE7700A3DBD7 /* Heebo-ExtraBold.ttf in Resources */,
-				AB493CAF21AFDE7500A3DBD7 /* Heebo-Light.ttf in Resources */,
-				AB493CB221AFDE7B00A3DBD7 /* Heebo-Black.ttf in Resources */,
-				AB493CB121AFDE7900A3DBD7 /* Heebo-Bold.ttf in Resources */,
 				ABCA3A1521AA479C0088CAC9 /* Assets.xcassets in Resources */,
+				ABD9850321B4A95800660460 /* AvenirLTStd-Medium.otf in Resources */,
+				ABD9850221B4A95500660460 /* Poppins-Regular.otf in Resources */,
+				ABD9850421B4A95A00660460 /* AvenirLTStd-Black.otf in Resources */,
 				ABCA3A1321AA479B0088CAC9 /* Main.storyboard in Resources */,
+				ABD9850521B4A95D00660460 /* Poppins-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A4215D879521CFC6516CCE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cheque!-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		925D4B9596CF979C727E8BE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cheque!/Pods-Cheque!-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cheque!/Pods-Cheque!-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B54275ADB32CB80163F3597D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cheque!/Pods-Cheque!-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cheque!/Pods-Cheque!-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ABCA3A0621AA479B0088CAC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD9850121B4A1AE00660460 /* EventTableViewCell.swift in Sources */,
+				AB8F22FD21B47A98009B3F3F /* LoginViewController.swift in Sources */,
 				70C2CDF521B22C9200897897 /* UpcomingEventsCell.swift in Sources */,
 				70C2CDEF21B2295700897897 /* EventsInYourGroupCell.swift in Sources */,
 				AB493C9121ACB3B100A3DBD7 /* Event.swift in Sources */,
 				ABCA3A1021AA479B0088CAC9 /* ViewController.swift in Sources */,
-				AB493C9521AFD10D00A3DBD7 /* HairlineView.swift in Sources */,
+				ABD984FE21B49E4C00660460 /* HomeViewController.swift in Sources */,
+				ABD9850021B49E5E00660460 /* UpcomingEventsHeader.swift in Sources */,
 				ABCA3A0E21AA479B0088CAC9 /* AppDelegate.swift in Sources */,
+
 				70568A7821B0B27E004DDDF0 /* HomeViewController.swift in Sources */,
 				AB493C9321ACBD9700A3DBD7 /* EventTableViewCell.swift in Sources */,
 				70C2CDF921B4734000897897 /* CreateViewController.swift in Sources */,
 				AB493C9321ACBD9700A3DBD7 /* EventTableViewCell.swift in Sources */,
+
 				AB493C8F21ACAF8500A3DBD7 /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +435,7 @@
 		};
 		ABCA3A1D21AA479C0088CAC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4810566C1A069037F49C4A /* Pods-Cheque!.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -372,6 +453,7 @@
 		};
 		ABCA3A1E21AA479C0088CAC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ADDE3FF341821ED5E519C54 /* Pods-Cheque!.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

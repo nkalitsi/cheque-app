@@ -33,6 +33,7 @@ class Event {
         description = "DESCRIPTION"
     }
     
+
     init(name: String, timestart: String, timeend: String, day: Int, month: Int, year: Int, eventLocation: String, group: String, description: String) {
         self.eventName = name
         self.timestart = timestart

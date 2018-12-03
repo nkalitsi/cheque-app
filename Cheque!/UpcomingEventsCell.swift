@@ -34,6 +34,7 @@ class UpcomingEventsCell: UICollectionViewCell {
     }
     
     override func updateConstraints() {
+
         NSLayoutConstraint.activate([
             nameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
             nameLabel.topAnchor.constraint(equalTo: contentView.topAnchor),
