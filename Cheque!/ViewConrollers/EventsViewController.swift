@@ -27,6 +27,7 @@ class EventsViewController: UIViewController, UITableViewDelegate, UITableViewDa
 
         title = "Events"
         //dummy event objects
+        
 
         let event1 = Event(name: "WICC General Body Meeting #1", timestart: "1:30PM", timeend: "2:30PM", day: 10, month: 12, year: 2018, eventLocation: "Gates 01", description: "description1", id: 1, group: "WICC")
         let event2 = Event(name: "AppDev: iOS Workshop", timestart: "2:40PM", timeend:"3:40PM", day: 14, month:12 , year: 2018, eventLocation: "Philips 223", description: "description2", id: 2, group: "AppDev")
@@ -37,6 +38,8 @@ class EventsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let event7 = Event(name: "Writing Workshop", timestart: "1:30PM", timeend: "2:30PM", day: 2, month: 12, year: 2018, eventLocation: "Tatkon Center 100", description: "description7", id: 7, group: "Knight Writing")
         
         events = [event1, event2, event3, event4, event5, event6, event7]
+        //        getEvents()
+
 
         
         //Change navBar color
@@ -69,6 +72,10 @@ class EventsViewController: UIViewController, UITableViewDelegate, UITableViewDa
 
     }
     
+//    func getEvents() {
+//        NetworkManager.getEvents(completion: ([]))
+//    }
+    
     //setup constraints for tableview
     func setupConstraints() {
         // Setup the constraints for our views
@@ -86,7 +93,7 @@ class EventsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         NSLayoutConstraint.activate([
             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: tableViewPadding),
             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -tableViewPadding),
-            tableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 200),
+            tableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 100),
             tableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
             ])
 
@@ -136,6 +143,7 @@ class EventsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
 
     /*

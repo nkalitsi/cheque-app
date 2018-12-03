@@ -127,7 +127,7 @@ class EventsInYourGroupCell: UICollectionViewCell {
     
     func configure(for event: Event) {
         nameLabel.text = event.eventName
-        groupLabel.text = event.groupName
+        groupLabel.text = "Group"
         dateLabel.text = ([String(event.day), (DateFormatter().monthSymbols[event.month - 1]), String(event.year)]).joined(separator: ", ")
         timeLabel.text = event.timestart
         locationLabel.text = event.eventLocation

@@ -29,6 +29,8 @@
 		ABD9850321B4A95800660460 /* AvenirLTStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70C2CDEA21B21D2C00897897 /* AvenirLTStd-Medium.otf */; };
 		ABD9850421B4A95A00660460 /* AvenirLTStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70C2CDEB21B21D3500897897 /* AvenirLTStd-Black.otf */; };
 		ABD9850521B4A95D00660460 /* Poppins-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70C2CDEC21B21D4B00897897 /* Poppins-SemiBold.otf */; };
+		ABD9850B21B4EB8300660460 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD9850A21B4EB8300660460 /* NetworkManager.swift */; };
+		ABD9850D21B5BCE400660460 /* README!!-FromTeam.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = ABD9850C21B5BCE400660460 /* README!!-FromTeam.rtfd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		ABCA3A1421AA479C0088CAC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABCA3A1721AA479C0088CAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABCA3A1921AA479C0088CAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD9850A21B4EB8300660460 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		ABD9850C21B5BCE400660460 /* README!!-FromTeam.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = "README!!-FromTeam.rtfd"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				70C2CE2821B4E59B00897897 /* Event.swift */,
+				ABD9850A21B4EB8300660460 /* NetworkManager.swift */,
 				70C2CE2921B4E59B00897897 /* Group.swift */,
 				70C2CE2721B4E59B00897897 /* User.swift */,
 			);
@@ -155,6 +160,7 @@
 				ABCA3A1421AA479C0088CAC9 /* Assets.xcassets */,
 				ABCA3A1621AA479C0088CAC9 /* LaunchScreen.storyboard */,
 				ABCA3A1921AA479C0088CAC9 /* Info.plist */,
+				ABD9850C21B5BCE400660460 /* README!!-FromTeam.rtfd */,
 				AB493CAB21AFD9C600A3DBD7 /* fonts */,
 			);
 			path = "Cheque!";
@@ -232,6 +238,7 @@
 				ABCA3A1821AA479C0088CAC9 /* LaunchScreen.storyboard in Resources */,
 				ABCA3A1521AA479C0088CAC9 /* Assets.xcassets in Resources */,
 				ABD9850321B4A95800660460 /* AvenirLTStd-Medium.otf in Resources */,
+				ABD9850D21B5BCE400660460 /* README!!-FromTeam.rtfd in Resources */,
 				ABD9850221B4A95500660460 /* Poppins-Regular.otf in Resources */,
 				ABD9850421B4A95A00660460 /* AvenirLTStd-Black.otf in Resources */,
 				ABD9850521B4A95D00660460 /* Poppins-SemiBold.otf in Resources */,
@@ -312,6 +319,7 @@
 				70C2CE2421B4E57F00897897 /* LoginViewController.swift in Sources */,
 				70C2CE2321B4E57F00897897 /* EventsViewController.swift in Sources */,
 				70C2CE2C21B4E59B00897897 /* Group.swift in Sources */,
+				ABD9850B21B4EB8300660460 /* NetworkManager.swift in Sources */,
 				70C2CE1721B4E57200897897 /* UpcomingEventsCell.swift in Sources */,
 				70C2CE3021B4E68100897897 /* HomeViewController.swift in Sources */,
 				70C2CE2621B4E57F00897897 /* ViewController.swift in Sources */,

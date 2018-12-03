@@ -37,42 +37,24 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     let nextEventCollectionReuseIdentifier = "nextEventReuseIdentifier"
     let padding: CGFloat = 20
     
-  
-    
-
-    
-    //sample events
-    let user1 = User(fullName: "Natalie Kalitsi", givenName: "Natalie", email: "nsk44@cornell.edu")
-    let user2 = User(fullName: "Natal", givenName: "Natalie", email: "nsk44@cornell.edu")
-
-    let users = [User]
-    
-    let userArray = [user1, user2]
-    let group = Group(groupname: "WICC", admin: "Natalie", description: "Cool", website: "ww.help", events: [event, event2])
-    
-    
-    let event = Event(name: "WICC GBody", timestart: "1:30", timeend: "2:30pm", day: 1, month: 1, year: 2018, eventLocation: "Gates", description: "It's a G-Body", id: 9302832, attendees: userArray, group: group)
-   
-    
-
-    
-    //sampleupcomingevents
-    let upcoming1 =
-    let upcoming2 =
-    l
-    
-
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         title = "Home!"
         view.backgroundColor = UIColor.init(displayP3Red: 244/255, green: 244/255, blue: 244/255, alpha: 1)
         
-        eventArray = [event1, event2, event3]
-        nextEvent = [upcoming1]
-        upcomingEvents = [upcoming2, upcoming3, upcoming4]
+        
+        let event1 = Event(name: "WICC General Body Meeting #1", timestart: "1:30PM", timeend: "2:30PM", day: 10, month: 12, year: 2018, eventLocation: "Gates 01", description: "description1", id: 1, group: "WICC")
+        let event2 = Event(name: "AppDev: iOS Workshop", timestart: "2:40PM", timeend:"3:40PM", day: 14, month:12 , year: 2018, eventLocation: "Philips 223", description: "description2", id: 2, group: "AppDev")
+        let event3 = Event(name: "CS 1110: Study Group 1", timestart: "7:00PM", timeend: "8:00PM", day: 20, month: 12, year: 2018, eventLocation: "Olin Library 100", description: "description3", id: 3, group: "CS 1110")
+        let event4 = Event(name: "Ice Cream Social", timestart: "7:00PM", timeend: "8:00PM", day: 14, month: 8, year: 2018, eventLocation: "Duffield Hall", description: "description4", id: 4, group: "WICC")
+        let event5 = Event(name: "CUSD Design Workshop", timestart: "4:00PM", timeend: "5:00PM", day: 17, month: 8, year: 2018, eventLocation: "Kennedy eHub", description: "description5", id: 5, group: "CUSD")
+        let event6 = Event(name: "Winter Origami Workshop", timestart: "5:00PM,", timeend: "6:00PM", day: 7, month: 11, year: 2018, eventLocation: "Goldwin Smith Hall 222", description: "description6", id: 6, group: "Origami Club")
+        let event7 = Event(name: "Writing Workshop", timestart: "1:30PM", timeend: "2:30PM", day: 2, month: 12, year: 2018, eventLocation: "Tatkon Center 100", description: "description7", id: 7, group: "Knight Writing")
+        
+        eventArray = [event1, event2, event3, event4, event5, event6, event7]
+        nextEvent = [event1]
+        upcomingEvents = eventArray
         
 
         homeHeaderLabel = UILabel()

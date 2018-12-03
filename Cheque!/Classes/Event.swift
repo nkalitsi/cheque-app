@@ -7,9 +7,10 @@
 //
 
 import Foundation
+import Alamofire
 
 
-class Event {
+class Event: Codable {
 
     var eventName: String
     var eventLocation: String
@@ -35,8 +36,15 @@ class Event {
         self.description = description
         self.id = id
         //self.attendees = attendees
-        self.groupName = group
         self.attendees = [User(fullName: "Johny Applessed", givenName: "johnappleseed", email: "johnnyappleseed@cornell.edu")]
+    }
+}
+    class EventDataResponse: Codable {
+        var events: [Event]
+    }
+    
+    class EventResponse: Codable {
+        var data: EventDataResponse
     }
 
     
@@ -66,4 +74,3 @@ class Event {
 //                    }
 //            }
             
-    }
