@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (4.8.0)
   - GoogleSignIn (4.4.0):
     - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
     - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
@@ -12,21 +13,28 @@ PODS:
     - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
   - "GoogleToolboxForMac/NSString+URLArguments (2.1.4)"
   - GTMSessionFetcher/Core (1.2.1)
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
+  - Alamofire
   - GoogleSignIn
+  - SnapKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - GoogleSignIn
     - GoogleToolboxForMac
     - GTMSessionFetcher
+    - SnapKit
 
 SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
   GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
   GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
   GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: dd81902e9000336bbbadea749fc6b3655ec2babd
+PODFILE CHECKSUM: 4ca109b8493e29d20f9642389a5b0c8e59c0260c
 
 COCOAPODS: 1.5.3

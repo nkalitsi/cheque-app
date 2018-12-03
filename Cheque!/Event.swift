@@ -18,7 +18,6 @@ class Event {
     var day: Int
     var month: Int
     var year: Int
-    var groupName: String
     var description: String
     var id: Int
     var attendees: [User]

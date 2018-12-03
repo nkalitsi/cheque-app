@@ -68,27 +68,22 @@ class EventTableViewCell: UITableViewCell {
         
         monthAbbrevLabel = UILabel()
         monthAbbrevLabel.translatesAutoresizingMaskIntoConstraints = false
-        monthAbbrevLabel.font = UIFont(name: "Heebo-Light", size: 14)
         contentView.addSubview(monthAbbrevLabel)
         
         dayLabel = UILabel()
         dayLabel.translatesAutoresizingMaskIntoConstraints = false
-        dayLabel.font = UIFont(name: "Heebo-Light", size: 14)
         contentView.addSubview(dayLabel)
         
         yearLabel = UILabel()
         yearLabel.translatesAutoresizingMaskIntoConstraints = false
-        yearLabel.font = UIFont(name: "Heebo-Light", size: 14)
         contentView.addSubview(yearLabel)
         
         eventNameLabel = UILabel()
         eventNameLabel.translatesAutoresizingMaskIntoConstraints = false
-        eventNameLabel.font = UIFont(name: "Heebo-Black", size: 20)
         contentView.addSubview(eventNameLabel)
         
         locationLabel = UILabel()
         locationLabel.translatesAutoresizingMaskIntoConstraints = false
-        locationLabel.font = UIFont(name: "Heebo-Light", size: 16)
         contentView.addSubview(locationLabel)
         
         setupConstraints()

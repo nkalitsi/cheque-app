@@ -12,6 +12,7 @@ class SingleEventViewController: UIViewController {
     
     var event: Event!
     var checkinButton: UIButton!
+    var eventNameLabel: UILabel!
     
     let myRed = UIColor(red: 255/255, green: 14/255, blue: 17/255, alpha: 1)
     let myPink = UIColor(red: 255/255, green: 118/255, blue: 127/255, alpha: 1)
@@ -31,6 +32,14 @@ class SingleEventViewController: UIViewController {
         checkinButton.layer.cornerRadius = 9
         view.addSubview(checkinButton)
         
+        eventNameLabel = UILabel()
+        eventNameLabel.text = event.eventName
+        eventNameLabel.font = UIFont(name: "Avenir-Heavy", size: 16)
+        eventNameLabel.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(eventNameLabel)
+        
+        
+        
         
         
         let layer = CAGradientLayer()
@@ -48,8 +57,12 @@ class SingleEventViewController: UIViewController {
             checkinButton.widthAnchor.constraint(equalToConstant: 100),
             checkinButton.bottomAnchor.constraint(equalTo: checkinButton.topAnchor, constant: 80)
             ])
+        
         NSLayoutConstraint.activate([
-            
+            eventNameLabel.topAnchor.constraint(equalTo: checkinButton.bottomAnchor, constant: -5),
+            eventNameLabel.bottomAnchor.constraint(equalTo: eventNameLabel.topAnchor, constant: 20),
+            eventNameLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 40),
+            eventNameLabel.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -40)
             ])
     }
 

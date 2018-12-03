@@ -7,5 +7,7 @@ target 'Cheque!' do
 
   # Pods for Cheque!
   pod 'GoogleSignIn'
+  pod 'Alamofire'
+  pod ‘SnapKit' 
 
 end

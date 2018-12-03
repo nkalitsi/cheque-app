@@ -42,17 +42,24 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
 
     
     //sample events
-    let event1 = Event(name: "WICC General Body Meeting #1", timestart: "1:30PM", timeend: "2:30PM", day: 10, month: 12, year: 2018, eventLocation: "Gates 01", group: "WICC", description: "description1")
-    let event2 = Event(name: "AppDev: iOS Workshop", timestart: "2:40PM", timeend:"3:40PM", day: 14, month:12 , year: 2018, eventLocation: "Philips 223", group: "AppDev", description: "description2")
-    let event3 = Event(name: "CS 1110: Study Group 1", timestart: "7:00PM", timeend: "8:00PM", day: 20, month: 12, year: 2018, eventLocation: "Olin Library 100", group: "CS 1110", description: "description3")
+    let user1 = User(fullName: "Natalie Kalitsi", givenName: "Natalie", email: "nsk44@cornell.edu")
+    let user2 = User(fullName: "Natal", givenName: "Natalie", email: "nsk44@cornell.edu")
+
+    let users = [User]
+    
+    let userArray = [user1, user2]
+    let group = Group(groupname: "WICC", admin: "Natalie", description: "Cool", website: "ww.help", events: [event, event2])
+    
+    
+    let event = Event(name: "WICC GBody", timestart: "1:30", timeend: "2:30pm", day: 1, month: 1, year: 2018, eventLocation: "Gates", description: "It's a G-Body", id: 9302832, attendees: userArray, group: group)
+   
     
 
     
     //sampleupcomingevents
-    let upcoming1 = Event(name: "Ice Cream Social", timestart: "7:00PM", timeend: "8:00PM", day: 14, month: 8, year: 2018, eventLocation: "Duffield Hall", group: "WICC", description: "description4")
-    let upcoming2 = Event(name: "CUSD Design Workshop", timestart: "4:00PM", timeend: "5:00PM", day: 17, month: 8, year: 2018, eventLocation: "Kennedy eHub", group: "CUSD", description: "description5")
-    let upcoming3 = Event(name: "Winter Origami Workshop", timestart: "5:00PM,", timeend: "6:00PM", day: 7, month: 11, year: 2018, eventLocation: "Goldwin Smith Hall 222", group: "Origami Club", description: "description6")
-    let upcoming4 = Event(name: "Writing Workshop", timestart: "1:30PM", timeend: "2:30PM", day: 2, month: 12, year: 2018, eventLocation: "Tatkon Center 100", group: "Knight Writing", description: "description7")
+    let upcoming1 =
+    let upcoming2 =
+    l
     
 
 
