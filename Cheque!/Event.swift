@@ -13,12 +13,13 @@ class Event {
 
     var eventName: String
     var eventLocation: String
-    var time: String
+    var timestart: String
+    var timeend: String
     var day: Int
     var month: Int
     var year: Int
     var groupName: String
-    var tags: [String]
+    var description: String
     
     init(name: String, eventLocation: String, day: Int, month: Int, year: Int) {
         self.eventName = name
@@ -26,20 +27,23 @@ class Event {
         self.day = day
         self.month = month
         self.year = year
-        time = "1:30"
+        timestart = "1:30pm"
+        timeend = "2:30pm"
         groupName = "FIX EVENTS CLASS"
-        tags = ["FIX TAGS"]
+        description = "DESCRIPTION"
     }
     
-    init(name: String, time: String,eventLocation: String, group: String, tags: [String]) {
+
+    init(name: String, timestart: String, timeend: String, day: Int, month: Int, year: Int, eventLocation: String, group: String, description: String) {
         self.eventName = name
-        self.time = time
-        day = 1
-        month = 1
-        year = 2018
+        self.timestart = timestart
+        self.timeend = timeend
+        self.day = day
+        self.month = month
+        self.year = year
         self.eventLocation = eventLocation
         self.groupName = group
-        self.tags = tags
+        self.description = description
     }
 //    var eventName: String
 //    var eventLocation: String
@@ -68,3 +72,4 @@ class Event {
 
 //    init(id: Int, title: String, day: Int, month: Int, year: Int, time: String, attendees: [User])
 }
+

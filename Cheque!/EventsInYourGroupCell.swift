@@ -20,7 +20,6 @@ class EventsInYourGroupCell: UICollectionViewCell {
     var timeLabel: UILabel!
     var dateLabel: UILabel!
     var groupLabel: InsetLabel!
-    //var tagsLabel: InsetLabel!
     
 
     //trying to make background gradient
@@ -80,14 +79,6 @@ class EventsInYourGroupCell: UICollectionViewCell {
         groupLabel.backgroundColor = UIColor.white
         contentView.addSubview(groupLabel)
         
-//        tagsLabel = InsetLabel()
-//        tagsLabel.translatesAutoresizingMaskIntoConstraints = false
-//        tagsLabel.font = UIFont.systemFont(ofSize: 14, weight: .light)
-//        tagsLabel.textColor = UIColor.blue
-//        tagsLabel.backgroundColor = UIColor.init(displayP3Red: 252/255, green: 239/255, blue: 239/255, alpha: 1)
-//        tagsLabel.numberOfLines = 0
-//        tagsLabel.lineBreakMode = .byWordWrapping
-//        contentView.addSubview(tagsLabel)
         
     }
     
@@ -132,19 +123,6 @@ class EventsInYourGroupCell: UICollectionViewCell {
             groupLabel.bottomAnchor.constraint(equalTo: timeLabel.bottomAnchor)
             ])
         
-  
-
-
-
-        
-//        NSLayoutConstraint.activate([
-//            tagsLabel.topAnchor.constraint(equalTo: locationLabel.bottomAnchor),
-//            tagsLabel.leadingAnchor.constraint(equalTo: locationLabel.leadingAnchor),
-//            tagsLabel.trailingAnchor.constraint(equalTo: locationLabel.trailingAnchor),
-//            tagsLabel.heightAnchor.constraint(equalToConstant: 55)
-//            ])
-//
-//
         super.updateConstraints()
     }
     
@@ -152,7 +130,7 @@ class EventsInYourGroupCell: UICollectionViewCell {
         nameLabel.text = event.eventName
         groupLabel.text = event.groupName
         dateLabel.text = ([String(event.day), (DateFormatter().monthSymbols[event.month - 1]), String(event.year)]).joined(separator: ", ")
-        timeLabel.text = event.time
+        timeLabel.text = event.timestart
         locationLabel.text = event.eventLocation
 //        tagsLabel.text = event.tags.joined(separator: ", ")
     }
