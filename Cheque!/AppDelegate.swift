@@ -10,7 +10,7 @@ import UIKit
 import GoogleSignIn
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 
     var window: UIWindow?
 
@@ -58,7 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             // Perform any operations on signed in user here.
             // ...
         } else {
-            println("\(error.localizedDescription)")
+            print("\(error.localizedDescription)")
         }
     }
 

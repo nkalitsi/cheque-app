@@ -12,13 +12,6 @@
 		70C2CDF521B22C9200897897 /* UpcomingEventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2CDF421B22C9200897897 /* UpcomingEventsCell.swift */; };
 		AB493C8F21ACAF8500A3DBD7 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */; };
 		AB493C9121ACB3B100A3DBD7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C9021ACB3B100A3DBD7 /* Event.swift */; };
-		AB493CAC21AFDE6E00A3DBD7 /* Heebo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CAA21AFD99D00A3DBD7 /* Heebo-Thin.ttf */; };
-		AB493CAD21AFDE7100A3DBD7 /* Heebo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA521AFD99D00A3DBD7 /* Heebo-Regular.ttf */; };
-		AB493CAE21AFDE7300A3DBD7 /* Heebo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA421AFD99D00A3DBD7 /* Heebo-Medium.ttf */; };
-		AB493CAF21AFDE7500A3DBD7 /* Heebo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA721AFD99D00A3DBD7 /* Heebo-Light.ttf */; };
-		AB493CB021AFDE7700A3DBD7 /* Heebo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA821AFD99D00A3DBD7 /* Heebo-ExtraBold.ttf */; };
-		AB493CB121AFDE7900A3DBD7 /* Heebo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA921AFD99D00A3DBD7 /* Heebo-Bold.ttf */; };
-		AB493CB221AFDE7B00A3DBD7 /* Heebo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB493CA621AFD99D00A3DBD7 /* Heebo-Black.ttf */; };
 		AB8F22FD21B47A98009B3F3F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F22FC21B47A98009B3F3F /* LoginViewController.swift */; };
 		ABCA3A0E21AA479B0088CAC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA3A0D21AA479B0088CAC9 /* AppDelegate.swift */; };
 		ABCA3A1021AA479B0088CAC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA3A0F21AA479B0088CAC9 /* ViewController.swift */; };
@@ -27,6 +20,11 @@
 		ABCA3A1821AA479C0088CAC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCA3A1621AA479C0088CAC9 /* LaunchScreen.storyboard */; };
 		ABD984FE21B49E4C00660460 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD984FD21B49E4C00660460 /* HomeViewController.swift */; };
 		ABD9850021B49E5E00660460 /* UpcomingEventsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD984FF21B49E5E00660460 /* UpcomingEventsHeader.swift */; };
+		ABD9850121B4A1AE00660460 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */; };
+		ABD9850221B4A95500660460 /* Poppins-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70C2CDED21B21D4C00897897 /* Poppins-Regular.otf */; };
+		ABD9850321B4A95800660460 /* AvenirLTStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70C2CDEA21B21D2C00897897 /* AvenirLTStd-Medium.otf */; };
+		ABD9850421B4A95A00660460 /* AvenirLTStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70C2CDEB21B21D3500897897 /* AvenirLTStd-Black.otf */; };
+		ABD9850521B4A95D00660460 /* Poppins-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70C2CDEC21B21D4B00897897 /* Poppins-SemiBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,13 +40,6 @@
 		AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		AB493C9021ACB3B100A3DBD7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
-		AB493CA421AFD99D00A3DBD7 /* Heebo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Medium.ttf"; sourceTree = "<group>"; };
-		AB493CA521AFD99D00A3DBD7 /* Heebo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Regular.ttf"; sourceTree = "<group>"; };
-		AB493CA621AFD99D00A3DBD7 /* Heebo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Black.ttf"; sourceTree = "<group>"; };
-		AB493CA721AFD99D00A3DBD7 /* Heebo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Light.ttf"; sourceTree = "<group>"; };
-		AB493CA821AFD99D00A3DBD7 /* Heebo-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-ExtraBold.ttf"; sourceTree = "<group>"; };
-		AB493CA921AFD99D00A3DBD7 /* Heebo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Bold.ttf"; sourceTree = "<group>"; };
-		AB493CAA21AFD99D00A3DBD7 /* Heebo-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Thin.ttf"; sourceTree = "<group>"; };
 		AB8F22FC21B47A98009B3F3F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ABCA3A0A21AA479B0088CAC9 /* Cheque!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cheque!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCA3A0D21AA479B0088CAC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,17 +76,10 @@
 		AB493CAB21AFD9C600A3DBD7 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				AB493CA621AFD99D00A3DBD7 /* Heebo-Black.ttf */,
 				70C2CDEA21B21D2C00897897 /* AvenirLTStd-Medium.otf */,
-				AB493CA921AFD99D00A3DBD7 /* Heebo-Bold.ttf */,
 				70C2CDEB21B21D3500897897 /* AvenirLTStd-Black.otf */,
 				70C2CDED21B21D4C00897897 /* Poppins-Regular.otf */,
 				70C2CDEC21B21D4B00897897 /* Poppins-SemiBold.otf */,
-				AB493CA821AFD99D00A3DBD7 /* Heebo-ExtraBold.ttf */,
-				AB493CA721AFD99D00A3DBD7 /* Heebo-Light.ttf */,
-				AB493CA421AFD99D00A3DBD7 /* Heebo-Medium.ttf */,
-				AB493CA521AFD99D00A3DBD7 /* Heebo-Regular.ttf */,
-				AB493CAA21AFD99D00A3DBD7 /* Heebo-Thin.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -209,16 +193,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB493CAD21AFDE7100A3DBD7 /* Heebo-Regular.ttf in Resources */,
 				ABCA3A1821AA479C0088CAC9 /* LaunchScreen.storyboard in Resources */,
-				AB493CAC21AFDE6E00A3DBD7 /* Heebo-Thin.ttf in Resources */,
-				AB493CAE21AFDE7300A3DBD7 /* Heebo-Medium.ttf in Resources */,
-				AB493CB021AFDE7700A3DBD7 /* Heebo-ExtraBold.ttf in Resources */,
-				AB493CAF21AFDE7500A3DBD7 /* Heebo-Light.ttf in Resources */,
-				AB493CB221AFDE7B00A3DBD7 /* Heebo-Black.ttf in Resources */,
-				AB493CB121AFDE7900A3DBD7 /* Heebo-Bold.ttf in Resources */,
 				ABCA3A1521AA479C0088CAC9 /* Assets.xcassets in Resources */,
+				ABD9850321B4A95800660460 /* AvenirLTStd-Medium.otf in Resources */,
+				ABD9850221B4A95500660460 /* Poppins-Regular.otf in Resources */,
+				ABD9850421B4A95A00660460 /* AvenirLTStd-Black.otf in Resources */,
 				ABCA3A1321AA479B0088CAC9 /* Main.storyboard in Resources */,
+				ABD9850521B4A95D00660460 /* Poppins-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD9850121B4A1AE00660460 /* EventTableViewCell.swift in Sources */,
 				AB8F22FD21B47A98009B3F3F /* LoginViewController.swift in Sources */,
 				70C2CDF521B22C9200897897 /* UpcomingEventsCell.swift in Sources */,
 				70C2CDEF21B2295700897897 /* EventsInYourGroupCell.swift in Sources */,
