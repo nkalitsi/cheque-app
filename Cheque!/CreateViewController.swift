@@ -316,12 +316,12 @@ class CreateViewController: UIViewController {
             ])
     }
     
-    @objc func addEvent()
-    {
-        var event : Event!
-//        event = Event(name: eventNameTextField.text!, timestart: timestart.text!, timeend: timeend.text!, day: Int(day.text!)!, month: Int(month.text!)!, year: Int(year.text)!, eventLocation: locationTextField.text!, group: groupNameTextField.text, description: descriptionTextField.text!)
+
+//    @objc func addEvent()
+//    {
 //
-        
-    }
+//        var event : Event!
+//        event = Event(name: eventNameTextField.text!, timestart: timestart.text!, timeend: timeend.text!, day: Int(day.text)!, month: Int(month.text)!, year: Int(year.text)!, eventLocation: locationTextField.text!, group: groupNameTextField.text, description: descriptionTextField.text!)
+//
 
 }
