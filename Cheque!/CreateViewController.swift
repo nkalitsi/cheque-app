@@ -317,7 +317,7 @@ class CreateViewController: UIViewController {
         
     }
     
-<<<<<<< HEAD
+
 //    @objc func addEvent()
 //    {
 //
@@ -326,15 +326,5 @@ class CreateViewController: UIViewController {
 //
 //
 //    }
-=======
-    @objc func addEvent()
-    {
-    
-        var event : Event!
-//        event = Event(name: eventNameTextField.text!, timestart: timestart.text!, timeend: timeend.text!, day: Int(day.text!)!, month: Int(month.text!)!, year: Int(year.text)!, eventLocation: locationTextField.text!, group: groupNameTextField.text, description: descriptionTextField.text!)
-//        
-        
-    }
->>>>>>> 7be6cfd73819ab5fa0eaee56bf83e2fd43f52524
 
 }

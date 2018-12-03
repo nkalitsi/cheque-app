@@ -11,7 +11,6 @@ import UIKit
 class GroupCollectionViewCell: UICollectionViewCell {
     var nameLabel: InsetLabel!
     var adminLabel: UILabel!
-    var numberEventsLabel: UILabel!
     
     let myRed = UIColor(red: 255/255, green: 14/255, blue: 17/255, alpha: 1)
     let myPink = UIColor(red: 255/255, green: 118/255, blue: 127/255, alpha: 1)
@@ -32,6 +31,12 @@ class GroupCollectionViewCell: UICollectionViewCell {
         nameLabel.font = UIFont.systemFont(ofSize: 18, weight: .bold)
         nameLabel.textColor = UIColor.black
         contentView.addSubview(nameLabel)
+        
+        adminLabel = InsetLabel()
+        adminLabel.translatesAutoresizingMaskIntoConstraints = false
+        adminLabel.font = UIFont.systemFont(ofSize: 16, weight: .regular)
+        adminLabel.textColor = UIColor.black
+        contentView.addSubview(adminLabel)
     }
     
     required init?(coder aDecoder: NSCoder) {

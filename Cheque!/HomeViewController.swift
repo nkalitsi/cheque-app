@@ -145,12 +145,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
         //        upcomingEventsCollectionView.layer.borderWidth = 1
         upcomingEventsCollectionView.register(UpcomingEventsCell.self, forCellWithReuseIdentifier: upcomingCellResueIdentifier)
         view.addSubview(upcomingEventsCollectionView)
-        
-        eventCollectionView.register(UpcomingEventsCell.self, forCellWithReuseIdentifier: eventCellReuseIdentifier)
-        eventCollectionView.register(UpcomingEventsHeader.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: headerReuseIdentifier)
-        eventCollectionView.register(UpcomingEventsCell.self, forCellWithReuseIdentifier: eventCellReuseIdentifier)
-        eventCollectionView.register(UpcomingEventsHeader.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: headerReuseIdentifier)
-            view.addSubview(eventCollectionView)
+
 
         homeHeaderLabel = UILabel()
         homeHeaderLabel.translatesAutoresizingMaskIntoConstraints = false
