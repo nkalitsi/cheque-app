@@ -45,6 +45,9 @@ class Event {
         self.groupName = group
         self.description = description
     }
+
+    
+
 //    var eventName: String
 //    var eventLocation: String
 //    var time: String
@@ -71,5 +74,6 @@ class Event {
 //            }
 
 //    init(id: Int, title: String, day: Int, month: Int, year: Int, time: String, attendees: [User])
+
 }
 

@@ -11,6 +11,9 @@
 		70C2CDEF21B2295700897897 /* EventsInYourGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2CDEE21B2295600897897 /* EventsInYourGroupCell.swift */; };
 		70C2CDF521B22C9200897897 /* UpcomingEventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2CDF421B22C9200897897 /* UpcomingEventsCell.swift */; };
 		70C2CDF921B4734000897897 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2CDF821B4734000897897 /* CreateViewController.swift */; };
+		70C2CDFB21B4C3DD00897897 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2CDFA21B4C3DD00897897 /* Group.swift */; };
+		70C2CDFD21B4C52700897897 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2CDFC21B4C52700897897 /* GroupsViewController.swift */; };
+		70C2CDFF21B4C68E00897897 /* GroupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2CDFE21B4C68E00897897 /* GroupCollectionViewCell.swift */; };
 		AB493C8F21ACAF8500A3DBD7 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */; };
 		AB493C9121ACB3B100A3DBD7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C9021ACB3B100A3DBD7 /* Event.swift */; };
 		AB8F22FD21B47A98009B3F3F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F22FC21B47A98009B3F3F /* LoginViewController.swift */; };
@@ -37,12 +40,12 @@
 		70C2CDED21B21D4C00897897 /* Poppins-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.otf"; sourceTree = "<group>"; };
 		70C2CDEE21B2295600897897 /* EventsInYourGroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsInYourGroupCell.swift; sourceTree = "<group>"; };
 		70C2CDF421B22C9200897897 /* UpcomingEventsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventsCell.swift; sourceTree = "<group>"; };
-
 		70C2CDF821B4734000897897 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
-
+		70C2CDFA21B4C3DD00897897 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		70C2CDFC21B4C52700897897 /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		70C2CDFE21B4C68E00897897 /* GroupCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCollectionViewCell.swift; sourceTree = "<group>"; };
 		7C93B8821CA1F4ED349D89CC /* Pods_Cheque_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cheque_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4810566C1A069037F49C4A /* Pods-Cheque!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheque!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cheque!/Pods-Cheque!.debug.xcconfig"; sourceTree = "<group>"; };
-
 		AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		AB493C9021ACB3B100A3DBD7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
@@ -119,12 +122,14 @@
 				ABCA3A0F21AA479B0088CAC9 /* ViewController.swift */,
 				AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */,
 				AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */,
-
 				70C2CDF821B4734000897897 /* CreateViewController.swift */,
-				AB493C9421AFD10D00A3DBD7 /* HairlineView.swift */,
-
+				70C2CDFC21B4C52700897897 /* GroupsViewController.swift */,
 				70C2CDEE21B2295600897897 /* EventsInYourGroupCell.swift */,
 				70C2CDF421B22C9200897897 /* UpcomingEventsCell.swift */,
+				70C2CDFE21B4C68E00897897 /* GroupCollectionViewCell.swift */,
+				AB493C9021ACB3B100A3DBD7 /* Event.swift */,
+				70C2CDFA21B4C3DD00897897 /* Group.swift */,
+				ABCA3A1121AA479B0088CAC9 /* Main.storyboard */,
 				ABD9850621B4B55600660460 /* SingleEventViewController.swift */,
 				AB493C9021ACB3B100A3DBD7 /* Event.swift */,
 				ABD9850821B4BDE200660460 /* User.swift */,
@@ -283,20 +288,21 @@
 				ABD9850121B4A1AE00660460 /* EventTableViewCell.swift in Sources */,
 				AB8F22FD21B47A98009B3F3F /* LoginViewController.swift in Sources */,
 				70C2CDF521B22C9200897897 /* UpcomingEventsCell.swift in Sources */,
+				70C2CDFB21B4C3DD00897897 /* Group.swift in Sources */,
 				70C2CDEF21B2295700897897 /* EventsInYourGroupCell.swift in Sources */,
+
+				70C2CDFD21B4C52700897897 /* GroupsViewController.swift in Sources */,
+
 				ABD9850721B4B55600660460 /* SingleEventViewController.swift in Sources */,
+
 				AB493C9121ACB3B100A3DBD7 /* Event.swift in Sources */,
 				ABCA3A1021AA479B0088CAC9 /* ViewController.swift in Sources */,
+				70C2CDFF21B4C68E00897897 /* GroupCollectionViewCell.swift in Sources */,
 				ABD984FE21B49E4C00660460 /* HomeViewController.swift in Sources */,
 				ABD9850921B4BDE200660460 /* User.swift in Sources */,
 				ABD9850021B49E5E00660460 /* UpcomingEventsHeader.swift in Sources */,
 				ABCA3A0E21AA479B0088CAC9 /* AppDelegate.swift in Sources */,
-
-				70568A7821B0B27E004DDDF0 /* HomeViewController.swift in Sources */,
-				AB493C9321ACBD9700A3DBD7 /* EventTableViewCell.swift in Sources */,
 				70C2CDF921B4734000897897 /* CreateViewController.swift in Sources */,
-				AB493C9321ACBD9700A3DBD7 /* EventTableViewCell.swift in Sources */,
-
 				AB493C8F21ACAF8500A3DBD7 /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

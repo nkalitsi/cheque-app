@@ -192,7 +192,9 @@ class CreateViewController: UIViewController {
         createEventButton.layer.cornerRadius = 10
         createEventButton.layer.masksToBounds = true
         createEventButton.setTitleColor(.red, for: .normal)
-        createEventButton.addTarget(self, action: #selector(addEvent), for: .touchUpInside)
+
+//        createEventButton.addTarget(self, action: #selector(addEvent()), for: .touchUpInside)
+
         scrollView.addSubview(createEventButton)
         
         scrollView.contentSize = CGSize(width: self.view.frame.size.width, height: scrollView.frame.size.height)
