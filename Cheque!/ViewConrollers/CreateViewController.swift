@@ -314,7 +314,6 @@ class CreateViewController: UIViewController {
             createEventButton.heightAnchor.constraint(equalToConstant: 50),
             createEventButton.widthAnchor.constraint(equalToConstant: 200)
             ])
-        
     }
     
 
@@ -324,7 +323,5 @@ class CreateViewController: UIViewController {
 //        var event : Event!
 //        event = Event(name: eventNameTextField.text!, timestart: timestart.text!, timeend: timeend.text!, day: Int(day.text)!, month: Int(month.text)!, year: Int(year.text)!, eventLocation: locationTextField.text!, group: groupNameTextField.text, description: descriptionTextField.text!)
 //
-//
-//    }
 
 }

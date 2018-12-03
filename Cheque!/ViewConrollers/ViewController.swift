@@ -10,8 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
-    
     var tabController: UITabBarController!
     var homeViewController: UIViewController!
     
@@ -35,7 +33,7 @@ class ViewController: UIViewController {
         let eventsViewController = UINavigationController(rootViewController: EventsViewController())
         eventsViewController.title = "Events"
         
-        let createModalViewController = CreateViewController()
+        let createModalViewController =  UINavigationController(rootViewController: CreateViewController())
         createModalViewController.title = "Create"
         
         let groupViewController = GroupsViewController()
