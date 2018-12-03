@@ -16,15 +16,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        GIDSignIn.sharedInstance().clientID = "278048473562-6dgt9tvmdalnk7hsegldsgir947u61mc.apps.googleusercontent.com"
+        GIDSignIn.sharedInstance().delegate = self
+
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = LoginViewController()
 //        window?.rootViewController = ViewController() // changed this to be nav view as root
         window?.makeKeyAndVisible()
+        
+        UINavigationBar.appearance().backgroundColor = .red
+        UINavigationBar.appearance().tintColor = .white
 
         return true
     }
-    //more google sign in
     
+    //more google sign in
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!,
               withError error: Error!) {
         if let error = error {
@@ -38,19 +44,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
             let familyName = user.profile.familyName
             let email = user.profile.email
             // ...
+            
+            let viewController = ViewController()
+            window?.rootViewController = viewController
         }
     }
 
-    
-    //Google Sign in
-    func application(application: UIApplication,
-                     didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Initialize sign-in
-        GIDSignIn.sharedInstance().clientID = "YOUR_CLIENT_ID"
-        GIDSignIn.sharedInstance().delegate = self
-        
-        return true
-    }
     
     func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!,
                 withError error: NSError!) {
@@ -60,6 +59,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         } else {
             print("\(error.localizedDescription)")
         }
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        return GIDSignIn.sharedInstance().handle(url as URL?,
+                                                 sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String,
+                                                 annotation: options[UIApplicationOpenURLOptionsKey.annotation])
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

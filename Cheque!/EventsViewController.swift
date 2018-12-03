@@ -111,6 +111,13 @@ class EventsViewController: UINavigationController, UITableViewDelegate, UITable
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let event = events[indexPath.row]
+        let eventController = SingleEventViewController()
+        eventController.event = event
+        navigationController?.pushViewController(eventController, animated: true)
+    }
+    
     //Tells the data source to return the number of rows in a given section of a table view.
     func tableView(_: UITableView, numberOfRowsInSection: Int) -> Int {
         return events.count

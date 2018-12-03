@@ -38,16 +38,6 @@ class EventTableViewCell: UITableViewCell {
     var locationLabel: UILabel!
     var eventLocation: String!
     
-    
-    
-    //fonts
-    let heeboBlack = UIFont(name: "Heebo-Black", size: UIFont.systemFontSize)
-    let heeboBold = UIFont(name: "Heebo-Bold", size: UIFont.systemFontSize)
-    let heeboRegular = UIFont(name: "Heebo-Regular", size: UIFont.systemFontSize)
-    let heebo = UIFont(name: "Heebo-Black", size: UIFont.systemFontSize)
-
-
-    
     //add spacing between cells
     override var frame: CGRect {
         get {

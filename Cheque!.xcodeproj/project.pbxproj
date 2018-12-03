@@ -15,7 +15,6 @@
 		AB8F22FD21B47A98009B3F3F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F22FC21B47A98009B3F3F /* LoginViewController.swift */; };
 		ABCA3A0E21AA479B0088CAC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA3A0D21AA479B0088CAC9 /* AppDelegate.swift */; };
 		ABCA3A1021AA479B0088CAC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA3A0F21AA479B0088CAC9 /* ViewController.swift */; };
-		ABCA3A1321AA479B0088CAC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCA3A1121AA479B0088CAC9 /* Main.storyboard */; };
 		ABCA3A1521AA479C0088CAC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCA3A1421AA479C0088CAC9 /* Assets.xcassets */; };
 		ABCA3A1821AA479C0088CAC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCA3A1621AA479C0088CAC9 /* LaunchScreen.storyboard */; };
 		ABD984FE21B49E4C00660460 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD984FD21B49E4C00660460 /* HomeViewController.swift */; };
@@ -25,6 +24,8 @@
 		ABD9850321B4A95800660460 /* AvenirLTStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70C2CDEA21B21D2C00897897 /* AvenirLTStd-Medium.otf */; };
 		ABD9850421B4A95A00660460 /* AvenirLTStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70C2CDEB21B21D3500897897 /* AvenirLTStd-Black.otf */; };
 		ABD9850521B4A95D00660460 /* Poppins-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70C2CDEC21B21D4B00897897 /* Poppins-SemiBold.otf */; };
+		ABD9850721B4B55600660460 /* SingleEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD9850621B4B55600660460 /* SingleEventViewController.swift */; };
+		ABD9850921B4BDE200660460 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD9850821B4BDE200660460 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,12 +45,13 @@
 		ABCA3A0A21AA479B0088CAC9 /* Cheque!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cheque!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCA3A0D21AA479B0088CAC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABCA3A0F21AA479B0088CAC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ABCA3A1221AA479B0088CAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABCA3A1421AA479C0088CAC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABCA3A1721AA479C0088CAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABCA3A1921AA479C0088CAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABD984FD21B49E4C00660460 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		ABD984FF21B49E5E00660460 /* UpcomingEventsHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingEventsHeader.swift; sourceTree = "<group>"; };
+		ABD9850621B4B55600660460 /* SingleEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleEventViewController.swift; sourceTree = "<group>"; };
+		ABD9850821B4BDE200660460 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +116,9 @@
 				AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */,
 				70C2CDEE21B2295600897897 /* EventsInYourGroupCell.swift */,
 				70C2CDF421B22C9200897897 /* UpcomingEventsCell.swift */,
+				ABD9850621B4B55600660460 /* SingleEventViewController.swift */,
 				AB493C9021ACB3B100A3DBD7 /* Event.swift */,
-				ABCA3A1121AA479B0088CAC9 /* Main.storyboard */,
+				ABD9850821B4BDE200660460 /* User.swift */,
 				ABCA3A1421AA479C0088CAC9 /* Assets.xcassets */,
 				ABCA3A1621AA479C0088CAC9 /* LaunchScreen.storyboard */,
 				ABCA3A1921AA479C0088CAC9 /* Info.plist */,
@@ -198,7 +201,6 @@
 				ABD9850321B4A95800660460 /* AvenirLTStd-Medium.otf in Resources */,
 				ABD9850221B4A95500660460 /* Poppins-Regular.otf in Resources */,
 				ABD9850421B4A95A00660460 /* AvenirLTStd-Black.otf in Resources */,
-				ABCA3A1321AA479B0088CAC9 /* Main.storyboard in Resources */,
 				ABD9850521B4A95D00660460 /* Poppins-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +275,11 @@
 				AB8F22FD21B47A98009B3F3F /* LoginViewController.swift in Sources */,
 				70C2CDF521B22C9200897897 /* UpcomingEventsCell.swift in Sources */,
 				70C2CDEF21B2295700897897 /* EventsInYourGroupCell.swift in Sources */,
+				ABD9850721B4B55600660460 /* SingleEventViewController.swift in Sources */,
 				AB493C9121ACB3B100A3DBD7 /* Event.swift in Sources */,
 				ABCA3A1021AA479B0088CAC9 /* ViewController.swift in Sources */,
 				ABD984FE21B49E4C00660460 /* HomeViewController.swift in Sources */,
+				ABD9850921B4BDE200660460 /* User.swift in Sources */,
 				ABD9850021B49E5E00660460 /* UpcomingEventsHeader.swift in Sources */,
 				ABCA3A0E21AA479B0088CAC9 /* AppDelegate.swift in Sources */,
 				AB493C8F21ACAF8500A3DBD7 /* EventsViewController.swift in Sources */,
@@ -285,14 +289,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ABCA3A1121AA479B0088CAC9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABCA3A1221AA479B0088CAC9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ABCA3A1621AA479C0088CAC9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

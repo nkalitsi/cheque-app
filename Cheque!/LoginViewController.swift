@@ -11,8 +11,9 @@ import GoogleSignIn
 
 class LoginViewController: UIViewController, GIDSignInUIDelegate {
 
-    let loginButton = UIButton(frame: CGRect(x: 100, y: 100, width: 100, height: 50))
     let myPink = UIColor(red: 255/255, green: 118/255, blue: 127/255, alpha: 1)
+    var loginButton: GIDSignInButton!
+
 
 
     override func viewDidLoad() {
@@ -34,20 +35,22 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate {
             print("Family: \(family) Font names: \(names)")
         }
         
-        loginButton.setTitle("Sign in with Google", for: .normal)
-        loginButton.titleLabel?.font = UIFont(name: "Poppins-SemiBold", size: 16)
-//        loginButton.titleLabel?.tintColor = .red
-        loginButton.setTitleColor(.red, for: .normal)
+//        loginButton.setTitle("Sign in with Google", for: .normal)
+//        loginButton.titleLabel?.font = UIFont(name: "Poppins-SemiBold", size: 16)
+//        loginButton.setTitleColor(.red, for: .normal)
+        loginButton = GIDSignInButton()
         loginButton.backgroundColor = .white
         loginButton.layer.cornerRadius = 9
         loginButton.layer.masksToBounds = true
         loginButton.translatesAutoresizingMaskIntoConstraints = false
         
-        loginButton.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
+//        loginButton.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
         
         self.view.addSubview(loginButton)
         
         setupConstraints()
+        
+
     }
     
     func setupConstraints() {
@@ -62,7 +65,7 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate {
     
     
     @objc func buttonAction(sender: UIButton!) {
-        print("Button tapped")
+        
     }
     
     

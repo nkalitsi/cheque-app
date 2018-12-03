@@ -41,5 +41,30 @@ class Event {
         self.groupName = group
         self.tags = tags
     }
+//    var eventName: String
+//    var eventLocation: String
+//    var time: String
+//    var day: Int
+//    var month: Int
+//    var year: Int
+//    var groupName: String
+//    var tags: [String]
+    
+//    format of a response when u ask for event info (ignore the values) = {
+//                    'id': self.id,
+//                    'title': self.title,
+//                    'date': self.date,
+//                    'time': self.time,
+//                    'attendees': self.attendees,
+//                    'info': {
+//                        'group': self.info['group'],
+//                        'host': self.info['host']
+//                    }
+//                    'location': {
+//                        'name': self.location['name'],
+//                        'address': self.location['address']
+//                    }
+//            }
 
+//    init(id: Int, title: String, day: Int, month: Int, year: Int, time: String, attendees: [User])
 }

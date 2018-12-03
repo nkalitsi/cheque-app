@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeViewController: UINavigationController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+class HomeViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
 
 //    override func viewDidLoad() {
 //        super.viewDidLoad()
@@ -57,9 +57,9 @@ class HomeViewController: UINavigationController, UICollectionViewDataSource, UI
         title = "Home!"
         view.backgroundColor = UIColor.white
 
-        //Change navBar color
-        self.navigationBar.barTintColor = UIColor(red: 0.95, green: 0.26, blue: 0.0745, alpha: 0)
-        self.navigationController?.navigationBar.prefersLargeTitles = true
+//        //Change navBar color
+//        self.navigationBar.barTintColor = UIColor(red: 0.95, green: 0.26, blue: 0.0745, alpha: 0)
+//        self.navigationController?.navigationBar.prefersLargeTitles = true
 
 
 
@@ -82,10 +82,11 @@ class HomeViewController: UINavigationController, UICollectionViewDataSource, UI
         eventCollectionView.delegate = self
         eventCollectionView.backgroundColor = UIColor.white
         eventCollectionView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 10)
-//        eventCollectionView.register(UpcomingEventsCollectionViewCell.self, forCellWithReuseIdentifier: eventCellReuseIdentifier)
-//        eventCollectionView.register(UpcomingEventsHeader.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: headerReuseIdentifier)
-//        eventCollectionView.register(UpcomingEventsCell.self, forCellWithReuseIdentifier: eventCellReuseIdentifier)
-//        eventCollectionView.register(UpcomingEventsHeader.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: headerReuseIdentifier)
+        
+        eventCollectionView.register(UpcomingEventsCell.self, forCellWithReuseIdentifier: eventCellReuseIdentifier)
+        eventCollectionView.register(UpcomingEventsHeader.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: headerReuseIdentifier)
+        eventCollectionView.register(UpcomingEventsCell.self, forCellWithReuseIdentifier: eventCellReuseIdentifier)
+        eventCollectionView.register(UpcomingEventsHeader.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: headerReuseIdentifier)
             view.addSubview(eventCollectionView)
 
         homeHeaderLabel = UILabel()
