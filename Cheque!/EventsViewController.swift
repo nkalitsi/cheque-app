@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EventsViewController: UINavigationController, UITableViewDelegate, UITableViewDataSource {
+class EventsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     let reuseIdentifier = "eventCellReuse"
     let cellHeight: CGFloat = 120
     let tableViewPadding: CGFloat = 10
@@ -25,6 +25,7 @@ class EventsViewController: UINavigationController, UITableViewDelegate, UITable
         super.viewDidLoad()
         view.backgroundColor = UIColor(red: 244/255, green: 244/255, blue: 244/255, alpha: 1)
 
+        title = "Events"
         //dummy event objects
 
         let mathClass = Event(name: "Math 1910", eventLocation: "201 Malott", day: 8, month: 12, year: 2018)
@@ -37,8 +38,8 @@ class EventsViewController: UINavigationController, UITableViewDelegate, UITable
 
         
         //Change navBar color
-        self.navigationBar.barTintColor = UIColor(red: 0.95, green: 0.26, blue: 0.0745, alpha: 0)
-        self.navigationController?.navigationBar.prefersLargeTitles = true
+        navigationController?.navigationBar.barTintColor = UIColor(red: 0.95, green: 0.26, blue: 0.0745, alpha: 0)
+        navigationController?.navigationBar.prefersLargeTitles = true
         
 
 

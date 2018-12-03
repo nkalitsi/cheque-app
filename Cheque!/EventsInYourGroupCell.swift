@@ -68,7 +68,6 @@ class EventsInYourGroupCell: UICollectionViewCell {
         dateLabel.numberOfLines = 0
         dateLabel.lineBreakMode = .byWordWrapping
         dateLabel.textColor = UIColor.white
-        //dateLabel.backgroundColor = UIColor.init(displayP3Red: 255/255, green: 118/255, blue: 127/255, alpha: 1)
         dateLabel.textColor = UIColor.black
         contentView.addSubview(dateLabel)
         
