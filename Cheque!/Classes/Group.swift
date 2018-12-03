@@ -13,15 +13,15 @@ class Group {
     var admin: String!
     var description: String!
     var website: String!
-    var events: [Event]!
+    //var events: [Event]!
     
-    init(groupname: String, admin: String, description: String, website: String, events: [Event])
+    init(groupname: String, admin: String, description: String, website: String)
     {
         self.groupName = groupname
         self.admin = admin
         self.description = description
         self.website = website
-        self.events = events
+        //self.events = events
     }
     
 }

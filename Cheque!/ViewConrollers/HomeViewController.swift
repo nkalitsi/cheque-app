@@ -3,7 +3,7 @@
 //
 //
 //  Created by Riya Jaggi on 11/29/18.
-//
+//  Copyright © 2018 Natalie Kalitsi. All rights reserved.
 
 import UIKit
 
@@ -141,8 +141,6 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
         upcomingEventsCollectionView.delegate = self
         upcomingEventsCollectionView.backgroundColor = UIColor.white
         upcomingEventsCollectionView.layer.cornerRadius = 10
-        //        upcomingEventsCollectionView.layer.borderColor = UIColor.black.cgColor
-        //        upcomingEventsCollectionView.layer.borderWidth = 1
         upcomingEventsCollectionView.register(UpcomingEventsCell.self, forCellWithReuseIdentifier: upcomingCellResueIdentifier)
         view.addSubview(upcomingEventsCollectionView)
 
@@ -216,8 +214,6 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
             let event = eventArray[indexPath.item]
             cell.configure(for: event)
             cell.layer.cornerRadius = 10
-            //            cell.layer.borderColor = UIColor.black.cgColor
-            //            cell.layer.borderWidth = 1
             cell.layer.masksToBounds = true
             cell.setNeedsUpdateConstraints()
             return cell
@@ -231,12 +227,6 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
             cell.layer.masksToBounds = true
             cell.layer.borderColor = UIColor.clear.cgColor
             cell.layer.borderWidth = 1
-            //            cell.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
-            //            cell.layer.shadowOpacity = 0.1
-            //            cell.layer.shadowRadius = 7
-            //            cell.layer.shadowColor = UIColor.gray.cgColor
-            //            cell.layer.shadowPath = UIBezierPath(roundedRect: cell.bounds, cornerRadius: cell.contentView.layer.cornerRadius).cgPath
-            //            cell.layer.masksToBounds = false
             cell.setNeedsUpdateConstraints()
             return cell
         }
