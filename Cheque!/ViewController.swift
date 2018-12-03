@@ -27,12 +27,12 @@ class ViewController: UIViewController {
         appearance.setTitleTextAttributes(attributes, for: [])
     
         tabController = UITabBarController()
-        homeViewController = HomeViewController()
+        homeViewController = UINavigationController(rootViewController: HomeViewController())
         homeViewController.title = "Home"
         
 //        homeViewController.view.backgroundColor = .black
         
-        let eventsViewController = EventsViewController()
+        let eventsViewController = UINavigationController(rootViewController: EventsViewController())
         eventsViewController.title = "Events"
         
         let createModalViewController = CreateViewController()

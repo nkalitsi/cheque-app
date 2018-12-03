@@ -8,6 +8,7 @@
 import UIKit
 
 class HomeViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+
     
     var eventArray: [Event]!
     var nextEvent: [Event]!
@@ -145,6 +146,21 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
         upcomingEventsCollectionView.register(UpcomingEventsCell.self, forCellWithReuseIdentifier: upcomingCellResueIdentifier)
         view.addSubview(upcomingEventsCollectionView)
         
+        eventCollectionView.register(UpcomingEventsCell.self, forCellWithReuseIdentifier: eventCellReuseIdentifier)
+        eventCollectionView.register(UpcomingEventsHeader.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: headerReuseIdentifier)
+        eventCollectionView.register(UpcomingEventsCell.self, forCellWithReuseIdentifier: eventCellReuseIdentifier)
+        eventCollectionView.register(UpcomingEventsHeader.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: headerReuseIdentifier)
+            view.addSubview(eventCollectionView)
+
+        homeHeaderLabel = UILabel()
+        homeHeaderLabel.translatesAutoresizingMaskIntoConstraints = false
+        homeHeaderLabel.text = "Welcome!"
+        homeHeaderLabel.textAlignment = .center
+        homeHeaderLabel.backgroundColor = UIColor.white
+        homeHeaderLabel.font = UIFont.systemFont(ofSize: 18, weight: .regular)
+        homeHeaderLabel.textColor = UIColor.black
+        view.addSubview(homeHeaderLabel)
+
         setupConstraints()
         
     }
