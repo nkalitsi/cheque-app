@@ -21,10 +21,10 @@ class Event {
     var description: String
     var id: Int
     var attendees: [User]
-    var group: Group
+    //var group: String
     
 
-    init(name: String, timestart: String, timeend: String, day: Int, month: Int, year: Int, eventLocation: String,description: String, id: Int, attendees: [User], group: Group) {
+    init(name: String, timestart: String, timeend: String, day: Int, month: Int, year: Int, eventLocation: String,description: String, id: Int, group: String) {
         self.eventName = name
         self.timestart = timestart
         self.timeend = timeend
@@ -34,8 +34,9 @@ class Event {
         self.eventLocation = eventLocation
         self.description = description
         self.id = id
-        self.attendees = attendees
-        self.group = group
+        //self.attendees = attendees
+        self.groupName = group
+        self.attendees = [User(fullName: "Johny Applessed", givenName: "johnappleseed", email: "johnnyappleseed@cornell.edu")]
     }
 
     

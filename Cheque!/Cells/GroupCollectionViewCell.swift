@@ -23,7 +23,7 @@ class GroupCollectionViewCell: UICollectionViewCell {
         //background gradient
         let layer = CAGradientLayer()
         layer.colors = [myRed.cgColor, myPink.cgColor]
-        layer.frame = CGRect(x: 0, y: 0, width: 135, height: 125)
+        layer.frame = CGRect(x: 0, y: 0, width: 150, height: 175)
         contentView.layer.addSublayer(layer)
         
         nameLabel = InsetLabel()
@@ -37,6 +37,25 @@ class GroupCollectionViewCell: UICollectionViewCell {
         adminLabel.font = UIFont.systemFont(ofSize: 16, weight: .regular)
         adminLabel.textColor = UIColor.black
         contentView.addSubview(adminLabel)
+    }
+    
+    override func updateConstraints() {
+        NSLayoutConstraint.activate([
+            nameLabel.topAnchor.constraint(equalTo: contentView.topAnchor),
+            nameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            nameLabel.heightAnchor.constraint(equalToConstant: 175)
+            ])
+        
+        NSLayoutConstraint.activate([
+            adminLabel.topAnchor.constraint(equalTo: nameLabel.bottomAnchor),
+            adminLabel.trailingAnchor.constraint(equalTo: nameLabel.trailingAnchor),
+            adminLabel.bottomAnchor.constraint(equalTo: contentView.bottomAnchor)
+            ])
+    }
+    
+    func configure(for group: Group) {
+        nameLabel.text = group.groupName
+        adminLabel.text = group.admin
     }
     
     required init?(coder aDecoder: NSCoder) {
