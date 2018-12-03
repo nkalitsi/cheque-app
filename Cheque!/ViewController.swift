@@ -33,13 +33,16 @@ class ViewController: UIViewController {
         
         let eventsViewController = EventsViewController()
         eventsViewController.title = "Events"
-        tabController.viewControllers = [homeViewController, eventsViewController]
+        
+        let createModalViewController = CreateViewController()
+        createModalViewController.title = "Create"
+        
+        tabController.viewControllers = [homeViewController, eventsViewController, createModalViewController]
         self.view.addSubview(tabController.view)
         
         
     }
     
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

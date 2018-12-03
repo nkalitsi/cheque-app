@@ -10,6 +10,7 @@
 		70568A7821B0B27E004DDDF0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70568A7721B0B27D004DDDF0 /* HomeViewController.swift */; };
 		70C2CDEF21B2295700897897 /* EventsInYourGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2CDEE21B2295600897897 /* EventsInYourGroupCell.swift */; };
 		70C2CDF521B22C9200897897 /* UpcomingEventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2CDF421B22C9200897897 /* UpcomingEventsCell.swift */; };
+		70C2CDF921B4734000897897 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2CDF821B4734000897897 /* CreateViewController.swift */; };
 		AB493C8F21ACAF8500A3DBD7 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */; };
 		AB493C9121ACB3B100A3DBD7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C9021ACB3B100A3DBD7 /* Event.swift */; };
 		AB493C9321ACBD9700A3DBD7 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */; };
@@ -36,6 +37,7 @@
 		70C2CDED21B21D4C00897897 /* Poppins-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.otf"; sourceTree = "<group>"; };
 		70C2CDEE21B2295600897897 /* EventsInYourGroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsInYourGroupCell.swift; sourceTree = "<group>"; };
 		70C2CDF421B22C9200897897 /* UpcomingEventsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventsCell.swift; sourceTree = "<group>"; };
+		70C2CDF821B4734000897897 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		AB493C9021ACB3B100A3DBD7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		AB493C9221ACBD9700A3DBD7 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				ABCA3A0F21AA479B0088CAC9 /* ViewController.swift */,
 				70568A7721B0B27D004DDDF0 /* HomeViewController.swift */,
 				AB493C8E21ACAF8500A3DBD7 /* EventsViewController.swift */,
+				70C2CDF821B4734000897897 /* CreateViewController.swift */,
 				AB493C9421AFD10D00A3DBD7 /* HairlineView.swift */,
 				70C2CDEE21B2295600897897 /* EventsInYourGroupCell.swift */,
 				70C2CDF421B22C9200897897 /* UpcomingEventsCell.swift */,
@@ -208,6 +211,7 @@
 				ABCA3A0E21AA479B0088CAC9 /* AppDelegate.swift in Sources */,
 				70568A7821B0B27E004DDDF0 /* HomeViewController.swift in Sources */,
 				AB493C9321ACBD9700A3DBD7 /* EventTableViewCell.swift in Sources */,
+				70C2CDF921B4734000897897 /* CreateViewController.swift in Sources */,
 				AB493C9321ACBD9700A3DBD7 /* EventTableViewCell.swift in Sources */,
 				AB493C8F21ACAF8500A3DBD7 /* EventsViewController.swift in Sources */,
 			);
