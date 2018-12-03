@@ -15,8 +15,8 @@ class SingleEventViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        var navBar = UINavigationBar()
+        self.title = event.eventName
+
         
         
 
