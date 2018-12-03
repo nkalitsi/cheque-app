@@ -127,12 +127,10 @@
 				70C2CDEE21B2295600897897 /* EventsInYourGroupCell.swift */,
 				70C2CDF421B22C9200897897 /* UpcomingEventsCell.swift */,
 				70C2CDFE21B4C68E00897897 /* GroupCollectionViewCell.swift */,
-				AB493C9021ACB3B100A3DBD7 /* Event.swift */,
-				70C2CDFA21B4C3DD00897897 /* Group.swift */,
-				ABCA3A1121AA479B0088CAC9 /* Main.storyboard */,
 				ABD9850621B4B55600660460 /* SingleEventViewController.swift */,
 				AB493C9021ACB3B100A3DBD7 /* Event.swift */,
 				ABD9850821B4BDE200660460 /* User.swift */,
+				70C2CDFA21B4C3DD00897897 /* Group.swift */,
 				ABCA3A1421AA479C0088CAC9 /* Assets.xcassets */,
 				ABCA3A1621AA479C0088CAC9 /* LaunchScreen.storyboard */,
 				ABCA3A1921AA479C0088CAC9 /* Info.plist */,
@@ -290,11 +288,8 @@
 				70C2CDF521B22C9200897897 /* UpcomingEventsCell.swift in Sources */,
 				70C2CDFB21B4C3DD00897897 /* Group.swift in Sources */,
 				70C2CDEF21B2295700897897 /* EventsInYourGroupCell.swift in Sources */,
-
 				70C2CDFD21B4C52700897897 /* GroupsViewController.swift in Sources */,
-
 				ABD9850721B4B55600660460 /* SingleEventViewController.swift in Sources */,
-
 				AB493C9121ACB3B100A3DBD7 /* Event.swift in Sources */,
 				ABCA3A1021AA479B0088CAC9 /* ViewController.swift in Sources */,
 				70C2CDFF21B4C68E00897897 /* GroupCollectionViewCell.swift in Sources */,

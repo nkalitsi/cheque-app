@@ -12,10 +12,12 @@ class User {
     
     var fullName: String
     var givenName: String
+    var email: String
     
-    init() {
+    init(fullName: String, givenName: String, email: String) {
         self.fullName = "John Appleseed"
         self.givenName = "John"
+        self.email = "johnappleseed@apple.com"
     }
     
 }
